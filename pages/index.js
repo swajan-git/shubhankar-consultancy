@@ -13,7 +13,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <SiteNavbar/>
+        <div className="jumbotron text-center">
+          <h1 className="h1">Shubhankar Consultancy</h1>
+        </div>
       </main>
 
      
