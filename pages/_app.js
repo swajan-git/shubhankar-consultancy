@@ -1,12 +1,15 @@
 import SiteNavbar from "../components/shared/SiteNavbar";
+import { BlogsContextProvider } from "../shared/Hooks/useBlogs";
 import "../styles/bootstrap.scss";
 import '../styles/globals.css';
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
-    <SiteNavbar/>
-    <Component {...pageProps} />
+      <BlogsContextProvider>
+        <SiteNavbar />
+        <Component {...pageProps} />
+      </BlogsContextProvider>
     </>
   )
 }
