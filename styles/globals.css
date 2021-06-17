@@ -1,10 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600;900&display=swap');
+
 html,
 body {
   padding: 0;
   margin: 0;
   /* font-family: -apple-system,'Open Sans', sans-serif; */
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Mulish', sans-serif;
 }
 /* @import "./bootstrap.scss"; */
 
@@ -33,4 +35,13 @@ a {
       max-height: 90vh;
       margin-top:10px;
   }
+}
+
+@import url("./ck-styles.css");
+
+.navbar a{
+  color: #000000;
+}
+.navbar{
+  border-bottom: 1px solid rgba(128, 128, 128, 0.459);
 }

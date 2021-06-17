@@ -2,6 +2,7 @@ import SiteNavbar from "../components/shared/SiteNavbar";
 import { BlogsContextProvider } from "../shared/Hooks/useBlogs";
 import "../styles/bootstrap.scss";
 import '../styles/globals.css';
+import "../styles/customStyles.scss";
 
 function MyApp({ Component, pageProps }) {
   return (

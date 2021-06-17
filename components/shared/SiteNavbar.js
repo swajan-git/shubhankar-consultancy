@@ -5,7 +5,7 @@ const SiteNavbar = () => {
     const shadow = true;
     return (
         <>
-            <Navbar collapseOnSelect sticky="top" expand="lg" variant="white" className="">
+            <Navbar collapseOnSelect sticky="top" expand="lg" variant="white" className="py-3 bg-white">
 
                 <Navbar.Brand>
                     <Link href="/">
