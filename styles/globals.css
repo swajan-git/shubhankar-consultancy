@@ -45,3 +45,6 @@ a {
 .navbar{
   border-bottom: 1px solid rgba(128, 128, 128, 0.459);
 }
+.round-6{
+  border-radius: 6px;
+}

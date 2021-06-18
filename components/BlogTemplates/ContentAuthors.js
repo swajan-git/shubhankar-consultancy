@@ -1,29 +1,43 @@
 import { useEffect, useState } from "react";
-
-
+import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 
 const AuthorComponent = ({ author, all, sl }) => {
     const [borderBottom, setBorderBottom] = useState(true)
-    
-    useEffect(()=>{
-        if(all & sl){
-            if(all.length == sl){
+
+    useEffect(() => {
+        if (all & sl) {
+            if (all.length == sl) {
                 setBorderBottom(false)
             }
         }
-    },[author])
+    }, [author])
     console.log(all.length, " : ", sl, " : ", borderBottom)
     return (
         <>
-        <div className="text-left">
-            <h5>{author.name}</h5>
-            <p><small>{author.description} </small> </p>
-            {sl< all.length && <hr/>}
-        </div>
+            <div className="text-left">
+                <h5>{author.name}</h5>
+                <p className="mb-0"><small>{author.description} </small> </p>
+                <div className="py-1">
+                    {author.socialLinks.linkedIn &&
+                        <a className="tutor-contact-icon-container" href={author.socialLinks.linkedIn} target="_blank" rel="noopener noreferrer">
+                            <div className="tutor-contact-icons"><FaLinkedinIn /></div>
+                        </a>}
+                    {author.socialLinks.twitter &&
+                        <a className="tutor-contact-icon-container" href={author.socialLinks.twitter} target="_blank" rel="noopener noreferrer">
+                            <div className="tutor-contact-icons"><FaTwitter /></div>
+                        </a>}
+                    {author.socialLinks.fb &&
+                        <a className="tutor-contact-icon-container" href={author.socialLinks.fb} target="_blank" rel="noopener noreferrer">
+                            <div className="tutor-contact-icons"><FaFacebookF /></div>
+                        </a>}
+                </div>
+                {sl < all.length && <hr />}
+            </div>
         </>
     )
 }
+
 
 const authors = [
     {
@@ -61,7 +75,7 @@ const authors = [
 const ContentAuthors = () => {
     return (
         <>
-        {authors.map((item, index) => <AuthorComponent author={item} all={authors} sl={index+1}/>  )}
+            {authors.map((item, index) => <AuthorComponent author={item} all={authors} sl={index + 1} />)}
         </>
     );
 };

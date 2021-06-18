@@ -29,3 +29,34 @@
 //         width:100%
 //     }
 // }
+
+// author
+.tutor-contact-icons {
+    // font-size: 22px;
+    border-radius: 100px;
+    padding: 8px;
+    background-color: #fff;
+    display: inline-block;
+    color: #fc8540;
+    border: 2px solid #fc8540;
+    transition: all 0.3s ease-in-out;
+    svg {
+        height: 24px;
+        width: 25px;
+    }
+}
+
+.tutor-contact-icon-container{
+    margin-right: 12px !important;
+    display: inline-block;
+}
+.tutor-contact-icon-container:hover .tutor-contact-icons {
+    color: #fff;
+    background-color: #fc8540;
+    cursor: pointer;
+    text-decoration: none;
+}
+a.tutor-contact-icon-container:hover {
+    text-decoration: none;
+    color: #fc8540;
+}

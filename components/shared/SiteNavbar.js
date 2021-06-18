@@ -18,11 +18,11 @@ const SiteNavbar = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav style={{ color: "#FFFFFF" }} className="ml-auto text-center">
 
-                        <Nav.Item>
+                        <Nav.Item className="mr-0 mr-md-4">
                             <Nav.Link eventKey="1" to="/what-we-do" className="ml-4"><Link href="/what-we-do"> What We Do</Link></Nav.Link>
                         </Nav.Item>
 
-                        <div className="nav-item dropdown has-megamenu">
+                        <div className="nav-item dropdown has-megamenu mr-0 mr-md-4">
                             <a className="nav-link dropdown-toggle" role="button" aria-expended="false" aria-haspopup="true" href="#" data-bs-toggle="dropdown"> Mega menu </a>
                             <div className="dropdown-menu megamenu" role="menu">
                                 <div className="container">
@@ -93,7 +93,7 @@ const SiteNavbar = () => {
                                 </div> */}
 
                         </div>
-                        <NavDropdown title="About Us">
+                        <NavDropdown title="About Us" className="mr-0 mr-md-4">
                             {/* <NavDropdown.Item eventKey="1">
                                     <Link to="/our-journey">Our Journey</Link>
                                 </NavDropdown.Item> */}
