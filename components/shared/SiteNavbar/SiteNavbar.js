@@ -5,6 +5,7 @@ import { insightsMenuData } from "../../../shared/data/menuBarData";
 
 const SiteNavbar = () => {
     const shadow = true;
+    console.log(insightsMenuData)
     return (
         <>
             <Navbar collapseOnSelect sticky="top" expand="lg" variant="white" className="py-3 bg-white">
@@ -21,9 +22,9 @@ const SiteNavbar = () => {
                     <Nav style={{ color: "#FFFFFF" }} className="ml-auto text-center">
 
                         <Nav.Item className="mr-0 mr-md-4">
-                            <Nav.Link eventKey="1" to="/what-we-do" className="ml-4"><Link href="/what-we-do"> What We Do</Link></Nav.Link>
+                            <Nav.Link eventKey="1" to="/what-we-do" className="ml-0 ml-md-4"><Link href="/what-we-do"> What We Do</Link></Nav.Link>
                         </Nav.Item>
-                        <MegaMenuCommon menu={insightsMenuData} />
+                        <MegaMenuCommon menus={insightsMenuData} />
 
 
                         <NavDropdown title="About Us" className="mr-0 mr-md-4">

@@ -5,35 +5,20 @@ const insightsMenuData =[
         link: 'artificial-intelligence'
     },
     {
-        id: 0,
-        name: "Artificial",
+        id: 1,
+        name: "Artificial dsf",
         link: 'artificial'
     },
     {
-        id: 0,
-        name: "Artificial",
-        link: 'artificial'
+        id: 2,
+        name: "Artificial df",
+        link: 'artificiald'
     },
     {
-        id: 0,
-        name: "Artificial",
-        link: 'artificial'
-    },
-    {
-        id: 0,
-        name: "Artificial",
-        link: 'artificial'
-    },
-    {
-        id: 0,
-        name: "Artificial",
-        link: 'artificial'
-    },
-    {
-        id: 0,
-        name: "Artificial",
-        link: 'artificial'
-    },
+        id: 3,
+        name: "Artificialsdf",
+        link: 'artificials'
+    }
 ]
 
 export {insightsMenuData}
