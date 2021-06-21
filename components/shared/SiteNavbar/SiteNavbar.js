@@ -2,6 +2,9 @@ import { Navbar, Container, Nav, DropdownButton, Dropdown, NavDropdown } from "r
 import Link from "next/link"
 import MegaMenuCommon from "./MegaMenuCommon";
 import { insightsMenuData } from "../../../shared/data/menuBarData";
+import InsightMegaMenu from "./InsightMegaMenu";
+import BlogMegaMenu from "./BlogsMegaMenu";
+import CaseMegaMenu from "./CaseMegaMenu";
 
 const SiteNavbar = () => {
     const shadow = true;
@@ -21,13 +24,12 @@ const SiteNavbar = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav style={{ color: "#FFFFFF" }} className="ml-auto text-center">
 
-                        <Nav.Item className="mr-0 mr-md-4">
-                            <Nav.Link eventKey="1" to="/what-we-do" className="ml-0 ml-md-4"><Link href="/what-we-do"> What We Do</Link></Nav.Link>
-                        </Nav.Item>
-                        <MegaMenuCommon menus={insightsMenuData} />
+                        <InsightMegaMenu />
+                        <BlogMegaMenu/>
+                        <CaseMegaMenu/>
 
 
-                        <NavDropdown title="About Us" className="mr-0 mr-md-4">
+                        <NavDropdown title="About Us" className="mr-0 mr-md-5">
                             {/* <NavDropdown.Item eventKey="1">
                                     <Link to="/our-journey">Our Journey</Link>
                                 </NavDropdown.Item> */}

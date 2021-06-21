@@ -1,13 +1,12 @@
 import Link from "next/link"
 import { useBlogs } from "../../../shared/Hooks/useBlogs";
-import styles from "./megamenu.module.css"
 
-const MegaMenuCommon = ({ menus }) => {
+const InsightMegaMenu = () => {
     const {categories} = useBlogs()
     return (
         <>
             <div className="nav-item dropdown has-megamenu mr-0 mr-md-5">
-                <a className="nav-link dropdown-toggle" role="button" aria-expended="false" aria-haspopup="true" href="#" data-bs-toggle="dropdown"> Mega menu </a>
+                <a className="nav-link dropdown-toggle" role="button" aria-expended="false" aria-haspopup="true" href="#" data-bs-toggle="dropdown">Insights</a>
                 <div className="dropdown-menu megamenu" role="menu">
                     <div className="container">
                         <div className="w-100 py-0 py-5 ">
@@ -31,7 +30,7 @@ const MegaMenuCommon = ({ menus }) => {
     );
 };
 
-export default MegaMenuCommon;
+export default InsightMegaMenu;
 
 const SingleMenu = ({ item }) => {
     const linkText = item.replace(/ /g,"-").toLowerCase();

@@ -18,6 +18,46 @@ const insightsMenuData =[
         id: 3,
         name: "Artificialsdf",
         link: 'artificials'
+    },
+    {
+        id: 1,
+        name: "Artificial dsf",
+        link: 'artificial'
+    },
+    {
+        id: 2,
+        name: "Artificial df",
+        link: 'artificiald'
+    },
+    {
+        id: 3,
+        name: "Artificialsdf",
+        link: 'artificials'
+    },
+    {
+        id: 1,
+        name: "Artificial dsf",
+        link: 'artificial'
+    },
+    {
+        id: 2,
+        name: "Artificial df",
+        link: 'artificiald'
+    },
+    {
+        id: 3,
+        name: "Artificialsdf",
+        link: 'artificials'
+    },
+    {
+        id: 1,
+        name: "Artificial dsf",
+        link: 'artificial'
+    },
+    {
+        id: 2,
+        name: "Artificial df",
+        link: 'artificiald'
     }
 ]
 
