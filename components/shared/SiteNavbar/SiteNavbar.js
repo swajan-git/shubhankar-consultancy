@@ -11,7 +11,7 @@ const SiteNavbar = () => {
     console.log(insightsMenuData)
     return (
         <>
-            <Navbar collapseOnSelect sticky="top" expand="lg" variant="white" className="py-3 bg-white">
+            <Navbar collapseOnSelect sticky="top" expand="lg" variant="white" className="py-0 bg-white">
 
                 <Navbar.Brand>
                     <Link href="/">
@@ -29,7 +29,7 @@ const SiteNavbar = () => {
                         <CaseMegaMenu/>
 
 
-                        <NavDropdown title="About Us" className="mr-0 mr-md-5">
+                        <NavDropdown title="About Us" className="mr-0">
                             {/* <NavDropdown.Item eventKey="1">
                                     <Link to="/our-journey">Our Journey</Link>
                                 </NavDropdown.Item> */}

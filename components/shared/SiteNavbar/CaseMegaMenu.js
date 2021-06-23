@@ -5,7 +5,7 @@ const CaseMegaMenu = () => {
     const {categories} = useBlogs()
     return (
         <>
-            <div className="nav-item dropdown has-megamenu mr-0 mr-md-5">
+            <div className="nav-item dropdown has-megamenu mr-0">
                 <a className="nav-link dropdown-toggle" role="button" aria-expended="false" aria-haspopup="true" href="#" data-bs-toggle="dropdown">Case Studies</a>
                 <div className="dropdown-menu megamenu" role="menu">
                     <div className="container">

@@ -1,0 +1,89 @@
+.insight-card {
+    background-color: #fff;
+    max-width: 800px;
+    box-shadow: 2px 2px 5px #9E9E9E, -1px -1px 5px #9E9E9E;
+    border-radius: 3px;
+    display: grid;
+    grid-template-column: repeat(5, 1fr);
+  }
+  .insight-card .img-container {
+    width: 230px;
+    height: 100%;
+    grid-column: 2;
+    background-color: #c1b7b4;
+    // background-image: url('https://www.dropbox.com/s/7d5qt5wb2xpqeww/city-street.jpg?raw=1');
+    background-size: cover;
+    background-position: center center;
+  }
+  .card-content {
+    grid-column: 3 / 5;
+    padding: 10px 30px;
+    border-left: 1px solid #ccc;
+  }
+  h2 {
+    text-transform: uppercase;
+    color: #555;
+  }
+  h1 {
+    margin-bottom: 0;
+  }
+  .card-content .author {
+    border-top: 1px solid #cdcdcd;
+    font-weight: 700;
+    margin-top: 25px;
+    padding: 25px 0 10px 0;
+    color: #555;
+  }
+  
+  @media only screen and (max-width:600px) {
+    .insight-card {
+      display: block;
+    }
+    .insight-card .img-container {
+      height: 250px;
+      width: 100%;
+    }
+    .card-content {
+      border: 0;
+      border-top: 1px solid #ccc;
+    }
+  }
+
+/* // .insight-card{
+//     height: 100%;
+//     display:flex;
+//     flex-direction: column;
+//     padding: .94em;
+//     width: 100%;
+//     .img-container{
+//         width: 100%;
+//     }
+//     .img-container img{
+//         width: 100%;
+//         object-fit: cover;
+//         vertical-align: middle;
+//     }
+//     .img-container:after {
+//         content: "";
+//         position: absolute;
+//         border-top: 1.25em solid;
+//         border-left: 1.25em solid transparent;
+//         margin-left: 0;
+//         color: #000;
+//     }
+//     .content-container{
+
+//     }
+// }
+// .image-fold-module .img-container:after {
+//     content: "";
+//     position: absolute;
+//     border-top: 1.25em solid;
+//     border-left: 1.25em solid transparent;
+//     margin-left: 0;
+//     color: #000;
+// }
+
+// a{
+//     color: #004dff;
+// } */

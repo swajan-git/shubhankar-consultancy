@@ -1,11 +1,21 @@
-.mega-item{
-    color:#0000ff !important;
-    transition:all .3s ease-in-out;
-    a{
-        color:#0000ff !important;
-
+.mega-item {
+    color: #0000ff !important;
+    transition: all 0.3s ease-in-out;
+    a {
+        color: #0000ff !important;
     }
-    &:hover{
+    &:hover {
         // background-color: #cacaff ;
+    }
+}
+
+a.nav-link {
+    padding: 24px 16px !important;
+    // border-bottom: 2px solid transparent !important;
+    // padding-left: 22px !important;
+    border-bottom: 3px solid rgba(0, 0, 0, 0);
+    transition: all 0.3s ease-in-out;
+    &:hover {
+        border-bottom: 3px solid black;
     }
 }
