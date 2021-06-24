@@ -3,8 +3,8 @@ import "firebase/auth";
 import firebaseConfig from "./firebase-config";
 
 if (!firebase.apps.length) {
-    firebase.initializeApp(firebaseConfig);
-  }
+  firebase.initializeApp(firebaseConfig);
+}
 //   firebase
 //     .firestore()
 //     .enablePersistence()
@@ -31,5 +31,6 @@ export const onlineTutorialsCollection = fireStoreDB.collection('onlineTutorials
 export const researchesCollectionRef = fireStoreDB.collection('researches');
 
 export const userInfoCollectionRef = fireStoreDB
-    .collection("users");
+  .collection("users");
 
+export const writersCollectionRef = fireStoreDB.collection("writers");

@@ -6,8 +6,8 @@ import styles from "./TemplateSingle.module.css"
 const TemplateSingle = ({ blog, type, categories }) => {
     return (
         <>
-            <main className="gray-bg py-5">
-                <section className="content-hero py-4">
+            <main className="gray-bg pb-5 pt-4">
+                <section className="content-hero pb-4">
                     <div className="container">
                         <div className="px-0 px-md-5">
                             <p className="text-blue font-weight-bold mb-4">{blog.category} </p>
@@ -21,23 +21,22 @@ const TemplateSingle = ({ blog, type, categories }) => {
 
                     <div className="container bg-white ">
                         <div className="p-0 p-md-5">
-                            <h5>RESEARCH REPORT</h5>
                             <div className="row">
                                 <div className="col-md-8">
-                                <PostSocialShare docLink="/" className="mb-4" link={siteLink+"blog/"+ blog.slug} />
-
-                                    {/* <img src={blog.featuredImage} alt="" className="img-fluid mb-5" /> */}
+                                    {blog.brief && <div className="doc-content ck-content" dangerouslySetInnerHTML={{ __html: blog.brief }} ></div>}
+                                    {blog.brief && <hr className="hr-black mb-4" /> }
+                                    <PostSocialShare docLink="/" className="mb-4" link={siteLink + "blog/" + blog.slug} />
+                                    {blog.featuredImage&& <img src={blog.featuredImage} alt="" className="img-fluid mb-4" />}                                    {/* <img src={blog.featuredImage} alt="" className="img-fluid mb-5" /> */}
                                     <div className="doc-content ck-content" dangerouslySetInnerHTML={{ __html: blog.content }} ></div>
-                                    <PostSocialShare docLink="/" className="mt-5" link={siteLink+"blog/"+ blog.slug} />
-
+                                    <PostSocialShare docLink="/" className="mt-5" link={siteLink + "blog/" + blog.slug} />
                                 </div>
                                 <div className="col-md-4">
-                                    <div className="w-100  gray-bg py-4 px-4 ">
+                                    {blog.writers && <div className="w-100  gray-bg py-4 px-4 ">
                                         <h4 className="font-weight-bold mb-4">About the <br /> Authors</h4>
-                                        <ContentAuthors />
-                                    </div>
+                                        <ContentAuthors authorIds={blog.writers} />
+                                    </div>}
                                     <div className="w-100 mt-5 pt-4">
-                                        <h4 className="font-weight- mb-4">MORE ON THE TOPIC</h4>
+                                        <h4 className="font-weight- mb-4">MORE ON THIS TOPIC</h4>
                                         <RelatedTopics blogs={[blog, blog, blog]} />
                                     </div>
                                 </div>
