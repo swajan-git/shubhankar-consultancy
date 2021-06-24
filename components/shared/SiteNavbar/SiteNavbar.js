@@ -5,10 +5,10 @@ import { insightsMenuData } from "../../../shared/data/menuBarData";
 import InsightMegaMenu from "./InsightMegaMenu";
 import BlogMegaMenu from "./BlogsMegaMenu";
 import CaseMegaMenu from "./CaseMegaMenu";
+import ServicesMegaMenu from "./ServicesMegaMenu";
 
 const SiteNavbar = () => {
     const shadow = true;
-    console.log(insightsMenuData)
     return (
         <>
             <Navbar collapseOnSelect sticky="top" expand="lg" variant="white" className="py-0 bg-white">
@@ -23,17 +23,14 @@ const SiteNavbar = () => {
                 {/* <Navbar.Collapse id="responsive-navbar-nav text-center"> */}
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav style={{ color: "#FFFFFF" }} className="ml-auto text-center">
-
+                        <ServicesMegaMenu/>
                         <InsightMegaMenu />
-                        <BlogMegaMenu/>
-                        <CaseMegaMenu/>
-
-
+                        <BlogMegaMenu />
+                        <CaseMegaMenu />
                         <NavDropdown title="About Us" className="mr-0">
                             {/* <NavDropdown.Item eventKey="1">
                                     <Link to="/our-journey">Our Journey</Link>
                                 </NavDropdown.Item> */}
-
                             <NavDropdown.Item eventKey="3">
                                 <Link to="/goals-and-dreams">Goals & Dreams</Link>
                             </NavDropdown.Item>
@@ -44,18 +41,14 @@ const SiteNavbar = () => {
                                 <Link to="/interns">Our Interns</Link>
                             </NavDropdown.Item>
                         </NavDropdown>
-
-
                         <NavDropdown className="dustu" title="Contact Us">
                             <NavDropdown.Item eventKey="11">
                                 <Link to="/complaints">Complaints</Link>
                             </NavDropdown.Item>
-
                             <NavDropdown.Item eventKey="12">
                                 <Link to="/get-in-touch">Get in touch</Link>
                             </NavDropdown.Item>
                         </NavDropdown>
-
                     </Nav>
                 </Navbar.Collapse>
 

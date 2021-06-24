@@ -30,7 +30,6 @@ const NewsTemplate = ({ blog, type, categories }) => {
                                 </div>
                                 <div className="col-md-4">
                                 <SocialSidebarSidebar docLink="/" className="mb-4" link={siteLink + "blog/" + blog.slug} />
-
                                     {blog.writers && <div className="w-100  gray-bg py-4 px-4 ">
                                         <h4 className="font-weight-bold mb-4">About the <br /> Authors</h4>
                                         <ContentAuthors authorIds={blog.writers} />

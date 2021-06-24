@@ -1,0 +1,24 @@
+.service-page-scroll{
+    border-top: 1px solid rgba(128, 128, 128, 0.2);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+    a:link, a:visited{
+        font-size: 14px;
+        text-decoration: none;
+        transition:all .1s ease-in-out;
+
+    }
+    a.active{
+        font-weight: bold;
+        text-decoration: none;
+    }
+    .scroll-item{
+        border-top: 4px solid transparent;
+        border-bottom: 4px solid transparent;
+        padding: 12px 0;
+    }
+    .scroll-item.active{
+        border-top: 4px solid transparent;
+        border-bottom: 4px solid red;
+    }
+}
+
