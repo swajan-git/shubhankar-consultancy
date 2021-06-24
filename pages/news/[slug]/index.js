@@ -5,6 +5,7 @@ import { blogsCollectionRef, newsCollectionRef } from '../../../shared/firebase/
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 import TemplateSingle from '../../../components/BlogTemplates/TemplateSingle';
 import { useBlogs } from '../../../shared/Hooks/useBlogs';
+import NewsTemplate from '../../../components/BlogTemplates/NewsTemplate';
 const siteDescription = `I'm an independent contract developer who loves to work on, and write about ReactJS, NodeJS, JavaScript and other development stacks. I also have much expertise in working with serverless development projects with Firebase or AWS.`
 
 const blog = ({ blog }) => {
@@ -53,7 +54,7 @@ const blog = ({ blog }) => {
                     <button onClick={() => console.log(blog)} className="btn-primary btn">log</button>
                 </div> */}
                 <main>
-                    {blog && categories && <TemplateSingle type="blog" categories={categories.blogCategories} blog={blog} />}
+                    {blog && categories && <NewsTemplate type="blog" categories={categories.blogCategories} blog={blog} />}
                 </main>
             </body>
         </>
