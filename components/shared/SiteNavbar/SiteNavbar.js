@@ -22,10 +22,16 @@ const SiteNavbar = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 {/* <Navbar.Collapse id="responsive-navbar-nav text-center"> */}
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav style={{ color: "#FFFFFF" }} className="ml-auto text-center">
-                        <ServicesMegaMenu/>
-                        <InsightMegaMenu />
-                        <BlogMegaMenu />
+                    <Nav style={{ color: "#FFFFFF"}} className="ml-auto text-center">
+                        <ServicesMegaMenu />
+                        <Nav.Item>
+                            <Nav.Link eventKey="122" className=" single-item"><Link href="/insights"><span className="nav-link">Insights</span></Link></Nav.Link>
+                        </Nav.Item>
+                        <Nav.Item>
+                            <Nav.Link eventKey="123" className=" single-item"><Link href="/blog"><span className="nav-link">Blog</span></Link></Nav.Link>
+                        </Nav.Item>
+                        {/* <InsightMegaMenu /> */}
+                        {/* <BlogMegaMenu /> */}
                         <CaseMegaMenu />
                         <NavDropdown title="About Us" className="mr-0">
                             {/* <NavDropdown.Item eventKey="1">
