@@ -15,7 +15,7 @@ const ServicePageScroll = () => {
                         </div>
                         <div className="col-md-3">
                             <div className={`scroll-item w-75 ${activeSection == 2 && "active"}`}>
-                                <a onClick={() => setActiveSection(2)} href="#case-studies" className={`service-section-scroll  ${activeSection == 2 && "active"}`}>Case Studies </a>
+                                <a onClick={() => setActiveSection(2)} href="#how-we-work" className={`service-section-scroll  ${activeSection == 2 && "active"}`}>How we work</a>
                             </div>
                         </div>
                         <div className="col-md-3">
