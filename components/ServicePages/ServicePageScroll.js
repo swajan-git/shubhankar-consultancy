@@ -10,7 +10,7 @@ const ServicePageScroll = () => {
                     <div className="row">
                         <div className="col-md-3">
                             <div className={`scroll-item w-75 ${activeSection == 1 && "active"}`}>
-                                <a onClick={() => setActiveSection(1)} href="#intro" className={`service-section-scroll  ${activeSection == 1 && "active"}`}>BPO Services </a>
+                                <a onClick={() => setActiveSection(1)} href="#intro" className={`service-section-scroll  ${activeSection == 1 && "active"}`}>Service Intro </a>
                             </div>
                         </div>
                         <div className="col-md-3">
@@ -20,7 +20,7 @@ const ServicePageScroll = () => {
                         </div>
                         <div className="col-md-3">
                             <div className={`scroll-item w-75 ${activeSection == 3 && "active"}`}>
-                                <a onClick={() => setActiveSection(3)} href="#we-think" className={`service-section-scroll  ${activeSection == 3 && "active"}`}>What We Think </a>
+                                <a onClick={() => setActiveSection(3)} href="#case-studies" className={`service-section-scroll  ${activeSection == 3 && "active"}`}>Case Studies</a>
                             </div>
                         </div>
                         <div className="col-md-3">
