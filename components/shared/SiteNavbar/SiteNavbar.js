@@ -19,7 +19,6 @@ const SiteNavbar = () => {
                     </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                {/* <Navbar.Collapse id="responsive-navbar-nav text-center"> */}
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav style={{ color: "#FFFFFF" }} className="ml-auto text-center">
                         <ServicesMegaMenu />
@@ -33,9 +32,7 @@ const SiteNavbar = () => {
                         {/* <BlogMegaMenu /> */}
                         <CaseMegaMenu />
                         <NavDropdown title="About Us" className="mr-0">
-                            {/* <NavDropdown.Item eventKey="1">
-                                    <Link to="/our-journey">Our Journey</Link>
-                                </NavDropdown.Item> */}
+         
                             <NavDropdown.Item eventKey="3">
                                 <Link to="/goals-and-dreams">Goals & Dreams</Link>
                             </NavDropdown.Item>
