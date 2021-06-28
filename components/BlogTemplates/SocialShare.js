@@ -1,5 +1,5 @@
 import { LinkedinShareButton, LinkedinIcon, TwitterShareButton, FacebookShareButton, EmailShareButton } from "react-share";
-import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
+import { FaFacebookF, FaLinkedinIn, FaTwitter, FaEnvelope } from "react-icons/fa";
 
 
 const PostSocialShare = ({link, className, docLink}) => {
@@ -21,7 +21,7 @@ const PostSocialShare = ({link, className, docLink}) => {
                                 <div className="tutor-contact-icons"><FaFacebookF /></div>
                             </div></FacebookShareButton>
                             <EmailShareButton title="Swajan" url={link}> <div className="tutor-contact-icon-container" >
-                                <div className="tutor-contact-icons"><FaLinkedinIn /></div>
+                                <div className="tutor-contact-icons"><FaEnvelope/></div>
                             </div></EmailShareButton>
                         </div>
                     </div>
