@@ -14,7 +14,7 @@ const ServicePage = () => {
         <>
             <ServicePageHero title={heroTitle} text={heroText} img={heroImg} />
             <ServicePageScroll />
-            <section className="service-intro py-5" id="intro">
+            <section className="service-intro py-5" id="one">
                 <div className="container">
                     {/* intro heading */}
                     <div className="row mb-4">
@@ -89,7 +89,7 @@ const ServicePage = () => {
                     </div>
                 </div>
             </section>
-            <ServiceSectionLayout title="How we work" id="how-we-work">
+            <ServiceSectionLayout title="How we work" id="two">
                 <div className="row">
                     <div className="col-md-6 mb-4">
                         <div className="bg-gray px-4 py-5">
@@ -160,7 +160,7 @@ const ServicePage = () => {
                     </div>
                 </div>
             </ServiceSectionLayout>
-            <ServiceSectionLayout title="Case Studies" id="case-studies" bg="gray">
+            <ServiceSectionLayout title="Case Studies" id="three" bg="gray">
                 <div className="row">
                     <div className="col-md-4 mb-4">
                         <div className="bg-gray px-4 py-4">

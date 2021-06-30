@@ -28,3 +28,29 @@
         padding-left: 5px;
     }
 }
+
+// service card
+.service-card{
+    background-color: #f2f2f2;
+    border: .063rem solid #ccc;
+    transition: all 0.2s ease-in-out;
+    
+    &:hover{
+        box-shadow:0 0 25px rgba(0,0,0, .07);
+        transform: translateY(-3px)
+    }
+}
+.fixed-bg{
+    background-image: url('https://ucc799e2f09cdaaad20372fdc06d.dl.dropboxusercontent.com/cd/0/inline/BRYEBIQmXAe9QItRmv-0uLNqUWoIvWhM2ekQrPeMaFxJ2d-va5hGBummRpDj1X1x_z8O7Y7sA_VKNpQ593PQxd-EV5IkFfGZW0L0S-Y8TF54SdCIwkN18iePdcdk6Zc0PdOi17SjiIOB9Jg6pQCoVLe8/file#');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    blockquote{
+        border-left: 3px solid blue;
+        font-size: 32px;
+    }
+}
+
+.img-card{
+    border: 1px solid rgba(128, 128, 128, 0.493);
+}
