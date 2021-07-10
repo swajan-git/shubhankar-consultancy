@@ -14,13 +14,13 @@ const SiteNavbar = () => {
             <Navbar collapseOnSelect sticky="top" expand="lg" variant="white" className="py-0 bg-white">
                 <Navbar.Brand>
                     <Link href="/">
-                        <a href="/" className="h5 font-weight-bold text- navbar-brand">Shubhankar</a>
+                        <a href="/" className="h5 font-weight-bold mb-0 text- navbar-brand">Shubhankar</a>
                         {/* <img src={ImgLogo} className="site-logo" alt="" /> */}
                     </Link>
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav style={{ color: "#FFFFFF" }} className="ml-auto text-center">
+                    <Nav style={{ color: "#FFFFFF" }} className="ml-auto text-center mt-1">
                         <ServicesMegaMenu />
                         <Nav.Item>
                             <Nav.Link eventKey="122" className=" single-item"><Link href="/insights"><span className="nav-link">Insights</span></Link></Nav.Link>

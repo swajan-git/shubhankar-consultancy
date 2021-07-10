@@ -10,7 +10,7 @@
 }
 
 a.nav-link {
-    padding: 24px 16px !important;
+    padding: 18px 16px !important;
     // border-bottom: 2px solid transparent !important;
     // padding-left: 22px !important;
     
@@ -22,7 +22,10 @@ a.nav-link {
         border-bottom: 3px solid black;
     }
     .single-item{
-        margin-top: -8px;
+        // margin-top: -8px;
+    }
+    span.nav-link{
+        padding: 0;
     }
 }
 .dropdown-menu.megamenu.show{
