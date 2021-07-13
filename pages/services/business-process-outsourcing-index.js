@@ -13,6 +13,8 @@ const BusinessProcessOutsourcing = () => {
     const heroImg = `https://source.unsplash.com/random/800x550`;
     return (
         <>
+        <main className="bpo">
+            
             <section className="service-hero py-5">
                 <div className="container">
                     <div className="row">
@@ -96,6 +98,8 @@ const BusinessProcessOutsourcing = () => {
             </section>
 
 
+
+            </main>
         </>
     );
 };

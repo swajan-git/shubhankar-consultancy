@@ -1,0 +1,27 @@
+.business-strategy {
+    .hero {
+        background: linear-gradient(0deg, rgba(6, 36, 121, 0.493), #061731e3), url("/img/services/business-strategy/bg.png");
+        background-position: center left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .text-box {
+            border-left: 5px solid #fc5e24;
+        }
+        .orange-dot {
+            font-size: 55px;
+            color: #fc9724;
+        }
+    }
+    .our-strategy{
+        background: linear-gradient(0deg, rgba(11, 14, 22, 0.493), #050d1a1f), url("/img/services/business-strategy/our-strategy.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .our-services{
+        background: linear-gradient(0deg, rgba(11, 14, 22, 0.493), #050d1aa1), url("/img/services/business-strategy/service-bg.png");
+        background-position: top right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+}

@@ -1,10 +1,8 @@
-import { useState } from 'react';
-import ServicePageHero from '../../components/ServicePages/ServicePageHero';
 import ServicePageScroll from '../../components/ServicePages/ServicePageScroll';
-import YouTubeResponsiveEmbed from '../../components/shared/YouTubeResponsiveEmbed';
+import OrangeHorizontalLine from '../../components/shared/OrangeHorizontalLine';
+import { businessStrategyData } from '../../shared/data/service-data/businessStrategy';
+import VIIModernServiceCard from '../../components/ServicePages/VIIModernServiceCard';
 import { BsArrowRight } from "react-icons/bs"
-import ServiceSectionLayout from '../../components/ServicePages/ServiceSectionLayout';
-import { randomImg } from '../../shared/data';
 
 const ServicePage = () => {
     const heroTitle = `Lorem ipsum dolor sit amet consectetur.`;
@@ -16,39 +14,43 @@ const ServicePage = () => {
             {/* <ServicePageHero title={heroTitle} text={heroText} img={heroImg} /> */}
             <main className="business-strategy">
                 <section className="hero py-5">
-                    <div className="container text-white pt-5 mt-5">
-                        <h6>About Shubhankar Consulting</h6>
+                    <div className="container">
+                        <div className="row">
+                            <div className="col-md-6 offset-md-3">
+                                <div className="text-box py-3 pl-3">
+                                    <h1 className="display-4 text-white font-weight-900">
+                                        Business <br /> Strategy <span className="orange-dot">.</span>
+                                    </h1>
+                                    <p className="text-white mb-0 font-22">
+                                        Reinventing Business Processes is critical. We innovate Reinvention
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </section>
                 <ServicePageScroll one="BPO Service" two="Case Studies" three="What We Think" four="Blogs" />
-                <section className="service-intro py-5" id="one">
-                    <div className="container">
-                        {/* intro heading */}
-                        <div className="row mb-4">
-                            <div className="col-md-8">
-                                <h1 className="font-44 font-weight-900">
-                                    Driving change by unlocking human ingenuity
-                                </h1>
-                            </div>
-                        </div>
+                <section className="our-strategy text-white">
+                    <div className="container-fluid">
                         <div className="row">
-                            <div className="col-md-6">
-                                <p className="mb-4 font-18">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eveniet error veritatis deserunt obcaecati suscipit nobis officiis vero, provident praesentium in nulla repellendus soluta id rerum saepe, quos unde iure ipsa aperiam ratione. Reiciendis beatae voluptatum eveniet asperiores placeat necessitatibus!
+                            <div className="col-md-5 py-5 offset-md-1">
+                                <h1 className="font-36 mb-3 font-weight-900">
+                                    Our Strategy
+                                </h1>
+                                <OrangeHorizontalLine />
+                                <p>
+                                    Companies must think quickly and be adaptable in this ever changing environment. And that demands real-world methods. With end-to-end experience throughout the value chain, Shubhankar Consultancy enables customers to build strategies that originate from not only knowledge but also expertise.                                 </p>
+                                <p>
+                                    By providing our strategists with accurate data and industry expertise, combined with the experience with efficient operation of business functionality, optimization and operation of supply chains, technology design and implementation and the construction of stable operational models and cultures, our integrated model enables 360° value creation.
                                 </p>
-                                <p className="mb-4 font-18">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, non distinctio, libero ad voluptatum molestias aliquid laboriosam corporis corrupti nobis neque ipsum commodi possimus porro reprehenderit animi sapiente?
+                                <p>
+                                    Shubhankar Consultancy takes advantage of this leverage in working with Boards of Executive Directors, CEOs and teams, to generate 360° value for shareholders and stakeholders by identifying and addressing their most important business issues in areas like development, operating models and sustainability.
                                 </p>
-                                <p className="mb-4 font-18">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae a adipisci aspernatur ipsa voluptatibus, blanditiis dicta. Eum illum aliquam ex.
-                                </p>
-                            </div>
-                            <div className="col-md-6">
-                                <YouTubeResponsiveEmbed youTubeId="L7c4wS7T_T8" />
                             </div>
                         </div>
                     </div>
                 </section>
+                {/* sharable */}
                 <section className="py-4 bg-gray">
                     <div className="container bg-white">
                         <div className="row py-3 d-flex align-items-center">
@@ -63,135 +65,33 @@ const ServicePage = () => {
                         </div>
                     </div>
                 </section>
-                <ServiceSectionLayout title="Accelerating equality">
-                    <div className="row">
-                        <div className="col-md-6">
-                            <p className="mb-4 font-18">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eveniet error veritatis deserunt obcaecati suscipit nobis officiis vero, provident praesentium in nulla repellendus soluta id rerum saepe, quos unde iure ipsa aperiam ratione. Reiciendis beatae voluptatum eveniet asperiores placeat necessitatibus!
-                            </p>
-                            <p className="mb-4 font-18">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, non distinctio, libero ad voluptatum molestias aliquid laboriosam corporis corrupti nobis neque ipsum commodi possimus porro reprehenderit animi sapiente?
-                            </p>
-                            <p className="mb-4 font-18">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae a adipisci aspernatur ipsa voluptatibus, blanditiis dicta. Eum illum aliquam ex.
-                            </p>
-                            <button className="btn btn-lg btn-dark mt-5 px-5">READ MORE</button>
-                        </div>
-                        <div className="col-md-6">
-                            <img src={randomImg + "800x700"} alt="" className="img-fluid" />
-                        </div>
-                    </div>
-                </ServiceSectionLayout>
-                <section className="py-4 bg-gray">
-                    <div className="container bg-white">
-                        <div className="row py-3 d-flex align-items-center">
-                            <div className="col-md-3" style={{ borderRight: "4px solid blue" }}>
-                                <img src="https://source.unsplash.com/random/800x500" alt="" className="img-fluid" />
+                {/* our services */}
+                <section className="py-5 our-services">
+                    <div className="container">
+                        <div className="row mb-5">
+                            <div className="col-md-6 pt-5">
+                                <h1 className="font-44 mt-5 mb-3 text-white font-weight-600">
+                                    Strategy Consultancy <br />Services
+                                </h1>
+                                <OrangeHorizontalLine className="mb-4" />
+                                <p className="text-white">
+                                    We combine deep industry expertise and human-centered approaches to help our clients shape their business strategies and drive growth.
+                                </p>
                             </div>
-                            <div className="col-md-9 pl-0 pl-md-4">
-                                <h5 className="font-weight-bold">ANOTHER LINK TO REDIRECT TO ANOTHER WEBSITE</h5>
-                                <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-                                <button className="btn btn-link px-0">READ MORE <BsArrowRight /> </button>
+                        </div>
+                        <div className="row mt-5 mb-5">
+                            <div className="col-md-6">
+                                <VIIModernServiceCard textR={true} br={true} reverse={true} data={businessStrategyData[0]} />
+                                <VIIModernServiceCard textR={true} reverse={true} data={businessStrategyData[1]} />
+                            </div>
+                            <div className="col-md-6">
+
+                                <VIIModernServiceCard data={businessStrategyData[2]} />
+                                <VIIModernServiceCard data={businessStrategyData[2]} />
                             </div>
                         </div>
                     </div>
                 </section>
-                <ServiceSectionLayout title="How we work" id="two">
-                    <div className="row">
-                        <div className="col-md-6 mb-4">
-                            <div className="bg-gray px-4 py-5">
-                                <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                                <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                            </div>
-                        </div>
-                        <div className="col-md-6 mb-4">
-                            <div className="bg-gray px-4 py-5">
-                                <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                                <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                            </div>
-                        </div>
-                        <div className="col-md-6 mb-4">
-                            <div className="bg-gray px-4 py-5">
-                                <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                                <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                            </div>
-                        </div>
-                        <div className="col-md-6 mb-4">
-                            <div className="bg-gray px-4 py-5">
-                                <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                                <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                            </div>
-                        </div>
-                    </div>
-                </ServiceSectionLayout>
-                <ServiceSectionLayout title="Creating healthy and resilient workforces" bg="gray">
-                    <div className="row">
-                        <div className="col-md-6">
-                            <p className="mb-4 font-18">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ea ut doloremque aspernatur qui voluptas dolore adipisci maxime, a laudantium sequi commodi officia odio atque consequatur cumque vitae tempore! Molestias itaque eveniet veniam, a labore sit dolorem possimus provident facere in dolorum accusamus cum nulla. Molestiae iste natus hic laborum.
-                            </p>
-                            <p className="mb-4 font-18">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, non distinctio, libero ad voluptatum molestias aliquid laboriosam corporis corrupti nobis neque ipsum commodi possimus porro reprehenderit animi sapiente?
-                            </p>
-                            <p className="mb-4 font-18">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae a adipisci aspernatur ipsa voluptatibus, blanditiis dicta. Eum illum aliquam ex.
-                            </p>
-                        </div>
-                        <div className="col-md-6">
-                            <img src={randomImg + "800x700"} alt="" className="img-fluid" />
-                        </div>
-                    </div>
-                </ServiceSectionLayout>
-                <ServiceSectionLayout title="Business functions workforce blog">
-                    <div className="row">
-                        <div className="col-md-4 mb-4">
-                            <div className="bg-gray px-4 py-4">
-                                <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                                <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                                <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                            </div>
-                        </div>
-                        <div className="col-md-4 mb-4">
-                            <div className="bg-gray px-4 py-4">
-                                <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                                <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                                <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                            </div>
-                        </div>
-                        <div className="col-md-4 mb-4">
-                            <div className="bg-gray px-4 py-4">
-                                <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                                <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                                <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                            </div>
-                        </div>
-                    </div>
-                </ServiceSectionLayout>
-                <ServiceSectionLayout title="Case Studies" id="three" bg="gray">
-                    <div className="row">
-                        <div className="col-md-4 mb-4">
-                            <div className="bg-gray px-4 py-4">
-                                <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                                <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                                <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                            </div>
-                        </div>
-                        <div className="col-md-4 mb-4">
-                            <div className="bg-gray px-4 py-4">
-                                <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                                <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                                <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                            </div>
-                        </div>
-                        <div className="col-md-4 mb-4">
-                            <div className="bg-gray px-4 py-4">
-                                <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                                <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                                <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                            </div>
-                        </div>
-                    </div>
-                </ServiceSectionLayout>
             </main>
         </>
     );
