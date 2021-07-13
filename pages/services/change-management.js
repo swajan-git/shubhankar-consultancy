@@ -38,13 +38,17 @@ const ServicePage = () => {
                     <div className="row">
                         <div className="col-md-5 py-5 offset-md-1">
                             <h1 className="font-36 mb-3 font-weight-900">
-                                BPS: Reinventing BPO with Intelligent Operations
+                                Propelling Growth through Unleashing Human Potential
                             </h1>
                             <HorizontalLine />
                             <p>
-                                In today’s dynamic market, where physical and digital realms merge, it is critical to ensure that companies do not become myopic with traditional revenue streams, and business processes. The only constant in today’s world is change and Shubhankar Consulting aims to provide data driven insights to reorganise your business processes to ensure a sustainable revenue stream over the foreseeable future. <br /> <br /> With our dynamic team of functional experts and deep industry experience we know for a fact that every client is unique and the solutions we provide reflect that.
+                                With the pandemic leaving a huge dent in the business industry of Bangladesh, it has become high time that companies - both large and small - get proper direction to enable upward and onward growth. While streamlining operations and collaboration are key, businesses can not thrive in the first place without empowering their workforce.                            </p>
+                            <p>
+                                Responsible leaders are at the heart of these people-centric and highly effective growth strategies, assisting businesses in navigating uncharted territory with confidence and rising to the new norm, where respect, compassion, and care for employees and customers are among the requirements for success.
                             </p>
-
+                            <p>
+                                Organizations that prioritize people and address their basic human needs as their own will unleash their employees' full potential and climb up the growth chart.
+                            </p>
                         </div>
                         <div className="col-md-6 change-second">
                             {/* <img src="/img/services/bpo/bps-spectacle.jpg" alt="" className="img-fluid" /> */}
