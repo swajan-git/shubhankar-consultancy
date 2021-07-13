@@ -1,0 +1,24 @@
+.service-hero{
+    background:linear-gradient(0deg, rgba(11, 21, 49, 0.98), #4666974d), url('/img/services/bpo/bpo-bg.jpg');
+    background-position: top right;
+    background-size: cover;
+    .text-box{
+        border-left: 5px solid #fc5e24;
+    }
+    .orange-dot{
+        font-size: 55px;
+        color: #fc9724;
+    }
+}
+
+.bps-bg{
+    background-image: url("/img/services/bpo/bps-spectacle.jpg");
+    background-size: cover;
+}
+.bpo-lamp{
+    background-image: url("/img/services/bpo/bpo-lamp.jpg");
+    background-size: cover;
+    height: 100%;
+    border-radius:12px;
+    background-position: top center;
+}
