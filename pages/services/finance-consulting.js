@@ -79,13 +79,56 @@ const ServicePage = () => {
                                 <ModernServiceCard reverse={true} textR={true} data={financeConsultingData[1]} />
                             </div>
                             <div className="col-md-6">
-                            <ModernServiceCard br={true} data={financeConsultingData[2]} />
-                            <ModernServiceCard br={true} data={financeConsultingData[3]} />
+                                <ModernServiceCard br={true} data={financeConsultingData[2]} />
+                                <ModernServiceCard br={true} data={financeConsultingData[3]} />
                             </div>
                         </div>
                     </div>
                 </section>
-                <section className="py-5"></section>
+                <section className="py-5 my-5 by-numbers">
+                    <div className="container">
+                        <h3 className="font-36  mb-3 font-weight-900">
+                            By the numbers
+                        </h3>
+                        <OrangeHorizontalLine />
+                        <div className="row mt-5">
+                            <div className="col-md-4">
+                                <div className="p-4 box">
+                                    <h3 className=" font-bold">57%</h3>
+                                    <div className="p-3 inner-box">
+                                        <p className="font-26 mb-0">
+                                            Driving Efficiency through <span className="font-bold">Digital</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div className="col-md-4 d-flex align-items-stretch">
+                                <div className="p-4 box">
+                                    <h3 className=" font-bold">55%</h3>
+                                    <div className="p-3 inner-box">
+                                        <p className="font-26 mb-0">
+                                            lead an <br /> <span className="font-bold">Organization wide transformation</span>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div className="col-md-4">
+                                <div className="p-4 box">
+                                    <h3 className=" font-bold">50%</h3>
+                                    <div className="p-3 inner-box">
+                                        <p className="font-26 mb-0">
+                                            are working on <span className="font-bold">reinventing how digital technologies can benefit the business</span>
+                                        </p>
+                                    
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </section>
             </main>
         </>
     );
