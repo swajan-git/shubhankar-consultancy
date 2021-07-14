@@ -1,0 +1,26 @@
+main.finance-consulting {
+    .bg-fin {
+        background-color: #c9ccd1;
+    }
+    .box-border {
+        border-top: 5px solid #fc5e24;
+        border-right: 5px solid #fc5e24;
+    }
+    .bg-fin-man {
+        background: url("/img/services/finance-consulting/bg.jpg");
+        background-position: top center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 85vh;
+        
+        .right-border{
+            border-right: 5px solid #fc5e24;
+            height:300px
+        }
+    }
+
+    .border-box-reverse{
+        border-right: 5px solid #fc5e24;
+        border-bottom: 5px solid #fc5e24;
+    }
+}
