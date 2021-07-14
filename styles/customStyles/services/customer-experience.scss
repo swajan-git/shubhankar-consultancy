@@ -1,0 +1,50 @@
+.customer-experience {
+    .exp-hero {
+        background: url("/img/services/customer-experience/bg.jpg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 86vh;
+    }
+
+    @media (min-width: 1200px) {
+        .text-section {
+            margin-top: -130px;
+        }
+    }
+    .box-border {
+        border-top: 5px solid #fc5e24;
+        border-right: 5px solid #fc5e24;
+    }
+    .featured-exp {
+        background: linear-gradient(90deg, rgb(20, 122, 255), #7a33ff);
+    }
+    .we-think{
+        background: linear-gradient(90deg, rgba(4, 23, 77, 0.829), rgba(26, 26, 26, 0.856)), url("/img/services/customer-experience/footer-bg.jpg");
+
+        .box-one{
+            background-image: url("/img/services/customer-experience/logo.jpg");
+            background-size: cover;
+            background-position: center center;
+        }
+        .box-two{
+            background-image: url("/img/services/customer-experience/girl.jpg");
+            background-size: cover;
+            background-position: center center;
+        }
+
+        .text-box{
+            border-left: 5px solid #fc5e24;
+            padding-left:18px;
+            margin-bottom: 8px;
+            p{
+                margin: 0;
+            }
+        }
+
+    }
+}
+
+.bg-transparent-dark {
+    background-color: rgba(13, 13, 14, 0.842);
+}

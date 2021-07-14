@@ -1,191 +1,111 @@
-import { useState } from 'react';
-import ServicePageHero from '../../components/ServicePages/ServicePageHero';
-import ServicePageScroll from '../../components/ServicePages/ServicePageScroll';
-import YouTubeResponsiveEmbed from '../../components/shared/YouTubeResponsiveEmbed';
-import { BsArrowRight } from "react-icons/bs"
-import ServiceSectionLayout from '../../components/ServicePages/ServiceSectionLayout';
-import { randomImg } from '../../shared/data';
+import OrangeHorizontalLine from "../../components/shared/OrangeHorizontalLine"
+
 
 const ServicePage = () => {
-    const heroTitle = `Lorem ipsum dolor sit amet consectetur.`;
-    const heroText = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, incidunt, eaque magni necessitatibus repellat distinctio nam porro repellendus iure odit tempore dolorum.`;
-    const heroImg = `https://source.unsplash.com/random/800x550`;
+
     return (
         <>
-            <ServicePageHero title={heroTitle} text={heroText} img={heroImg} />
-            <ServicePageScroll />
-            <section className="service-intro py-5" id="one">
-                <div className="container">
-                    {/* intro heading */}
-                    <div className="row mb-4">
-                        <div className="col-md-8">
-                            <h1 className="font-44 font-weight-900">
-                                Driving change by unlocking human ingenuity
-                            </h1>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="col-md-6">
-                            <p className="mb-4 font-18">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eveniet error veritatis deserunt obcaecati suscipit nobis officiis vero, provident praesentium in nulla repellendus soluta id rerum saepe, quos unde iure ipsa aperiam ratione. Reiciendis beatae voluptatum eveniet asperiores placeat necessitatibus!
-                            </p>
-                            <p className="mb-4 font-18">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, non distinctio, libero ad voluptatum molestias aliquid laboriosam corporis corrupti nobis neque ipsum commodi possimus porro reprehenderit animi sapiente?
-                            </p>
-                            <p className="mb-4 font-18">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae a adipisci aspernatur ipsa voluptatibus, blanditiis dicta. Eum illum aliquam ex.
-                            </p>
-                        </div>
-                        <div className="col-md-6">
-                            <YouTubeResponsiveEmbed youTubeId="L7c4wS7T_T8" />
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className="py-4 bg-gray">
-                <div className="container bg-white">
-                    <div className="row py-3 d-flex align-items-center">
-                        <div className="col-md-3" style={{ borderRight: "4px solid blue" }}>
-                            <img src="https://source.unsplash.com/random/800x500" alt="" className="img-fluid" />
-                        </div>
-                        <div className="col-md-9 pl-0 pl-md-4">
-                            <h5 className="font-weight-bold">ANOTHER LINK TO REDIRECT TO ANOTHER WEBSITE</h5>
-                            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-                            <button className="btn btn-link px-0">READ MORE <BsArrowRight /> </button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <ServiceSectionLayout title="Accelerating equality">
-                <div className="row">
-                    <div className="col-md-6">
-                        <p className="mb-4 font-18">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eveniet error veritatis deserunt obcaecati suscipit nobis officiis vero, provident praesentium in nulla repellendus soluta id rerum saepe, quos unde iure ipsa aperiam ratione. Reiciendis beatae voluptatum eveniet asperiores placeat necessitatibus!
-                        </p>
-                        <p className="mb-4 font-18">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, non distinctio, libero ad voluptatum molestias aliquid laboriosam corporis corrupti nobis neque ipsum commodi possimus porro reprehenderit animi sapiente?
-                        </p>
-                        <p className="mb-4 font-18">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae a adipisci aspernatur ipsa voluptatibus, blanditiis dicta. Eum illum aliquam ex.
-                        </p>
-                        <button className="btn btn-lg btn-dark mt-5 px-5">READ MORE</button>
-                    </div>
-                    <div className="col-md-6">
-                        <img src={randomImg + "800x700"} alt="" className="img-fluid" />
-                    </div>
-                </div>
-            </ServiceSectionLayout>
-            <section className="py-4 bg-gray">
-                <div className="container bg-white">
-                    <div className="row py-3 d-flex align-items-center">
-                        <div className="col-md-3" style={{ borderRight: "4px solid blue" }}>
-                            <img src="https://source.unsplash.com/random/800x500" alt="" className="img-fluid" />
-                        </div>
-                        <div className="col-md-9 pl-0 pl-md-4">
-                            <h5 className="font-weight-bold">ANOTHER LINK TO REDIRECT TO ANOTHER WEBSITE</h5>
-                            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-                            <button className="btn btn-link px-0">READ MORE <BsArrowRight /> </button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <ServiceSectionLayout title="How we work" id="two">
-                <div className="row">
-                    <div className="col-md-6 mb-4">
-                        <div className="bg-gray px-4 py-5">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-6 mb-4">
-                        <div className="bg-gray px-4 py-5">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-6 mb-4">
-                        <div className="bg-gray px-4 py-5">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-6 mb-4">
-                        <div className="bg-gray px-4 py-5">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                        </div>
-                    </div>
-                </div>
-            </ServiceSectionLayout>
-            <ServiceSectionLayout title="Creating healthy and resilient workforces" bg="gray">
-                <div className="row">
-                    <div className="col-md-6">
-                        <p className="mb-4 font-18">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ea ut doloremque aspernatur qui voluptas dolore adipisci maxime, a laudantium sequi commodi officia odio atque consequatur cumque vitae tempore! Molestias itaque eveniet veniam, a labore sit dolorem possimus provident facere in dolorum accusamus cum nulla. Molestiae iste natus hic laborum.
-                        </p>
-                        <p className="mb-4 font-18">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, non distinctio, libero ad voluptatum molestias aliquid laboriosam corporis corrupti nobis neque ipsum commodi possimus porro reprehenderit animi sapiente?
-                        </p>
-                        <p className="mb-4 font-18">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae a adipisci aspernatur ipsa voluptatibus, blanditiis dicta. Eum illum aliquam ex.
-                        </p>
-                    </div>
-                    <div className="col-md-6">
-                        <img src={randomImg + "800x700"} alt="" className="img-fluid" />
-                    </div>
-                </div>
-            </ServiceSectionLayout>
-            <ServiceSectionLayout title="Business functions workforce blog">
-                <div className="row">
-                    <div className="col-md-4 mb-4">
-                        <div className="bg-gray px-4 py-4">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                            <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                        </div>
-                    </div>
-                    <div className="col-md-4 mb-4">
-                        <div className="bg-gray px-4 py-4">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                            <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                        </div>
-                    </div>
-                    <div className="col-md-4 mb-4">
-                        <div className="bg-gray px-4 py-4">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                            <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                        </div>
-                    </div>
-                </div>
-            </ServiceSectionLayout>
-            <ServiceSectionLayout title="Case Studies" id="three" bg="gray">
-                <div className="row">
-                    <div className="col-md-4 mb-4">
-                        <div className="bg-gray px-4 py-4">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                            <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                        </div>
-                    </div>
-                    <div className="col-md-4 mb-4">
-                        <div className="bg-gray px-4 py-4">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                            <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                        </div>
-                    </div>
-                    <div className="col-md-4 mb-4">
-                        <div className="bg-gray px-4 py-4">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                            <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                        </div>
-                    </div>
-                </div>
-            </ServiceSectionLayout>
+            <main className="customer-experience">
+                <section className="exp-hero py-5">
 
+                </section>
+                <section className="text-section">
+                    <div className="container-fluid">
+                        <div className="row">
+                            <div className="col-md-7 py-5 px-4 bg-transparent-dark text-white offset-md-5">
+                                <h1 className="display-4 text-white font-weight-900">
+                                    Customer Experience <span className="orange-dot">.</span>
+                                </h1>
+                                <p className="font-20 mt-2 mb-0">We Don't simply fulfill Contracts. We Deliver Experiences.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container mt-5">
+                        <div className="row">
+                            <div className="col-md-6 offset-md-2">
+                                <p className="font-22 font-bold">
+                                    In today’s Dynamic world, exemplary brands make promises to all
+                                    stakeholders. The Fulfillment of these Purpose Driven Promises are felt through Experiences.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container-fluid mt-4">
+                        <div className="row">
+                            <div className="col-md-6 box-border">
+                                {/* <p>
+                                    Brands are no longer formed through advertising, but through experiences, thanks to the tremendous convergence of marketing and technology in today's economy. To define and deliver new realities, we combine profound human and commercial insights with technological possibilities. Experiential learning opportunities that make life easier, healthier, safer, more productive, and enjoyable.
+                                </p> */}
+                            </div>
+                            <div className="col-md-5 pb-5 pl-0 pl-md-5">
+                                <p>
+                                    Brands are no longer formed through advertising, but through experiences, thanks to the tremendous convergence of marketing and technology in today's economy. To define and deliver new realities, we combine profound human and commercial insights with technological possibilities. Experiential learning opportunities that make life easier, healthier, safer, more productive, and enjoyable.
+                                </p>
+                                <p>
+                                    To unlock growth, companies need a new partner—one who can rethink the front office across products, marketing operations, sales and commerce, and customer service—one who is part business advisor, part creative agency, and part technology powerhouse.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="featured-exp py-5">
+                    <div className="container">
+                        <div className="row">
+                            <div className="text-white col-md-8 offset-md-2">
+                                <h1 className="font-bold">
+                                    At Shubhankar Consulting we deliver value through <span className="text-underline">Experiences</span> <span className="orange-dot">.</span>
+                                </h1>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section className="py-5 we-think">
+                    <div className="container">
+                        <div className="row">
+                            <div className="text-white col-md-6 offset-md-2">
+                                <h3 className="font-36 mb-3 font-weight-900">
+                                    What we think
+                                </h3>
+                                <OrangeHorizontalLine />
+                                <p className="font-20">Provocative ideas, revolutionary insights, and measurable results
+                                    Hear how companies have changed the way they work, engage, and provide value to customers, workers, and communities.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="container-fluid mt-5">
+                        <div className="row">
+                            <div className="col-md-2 box-one"></div>
+                            <div className="col-md-3 d-flex align-items-center  text-dark bg-white py-5  pl-4">
+                                <div>
+                                <h3 className="font-26 mb-3 font-weight-900">
+                                    What we think
+                                </h3>
+                                <div className="text-box py-3">
+                                    <p>The new drivers for "Reimagined" <br/> Customers</p>
+                                </div>
+                                </div>
+                            </div>
+                            <div className="col-md-1"></div>
+                            <div className="col-md-4  text-dark bg-white py-5  pl-5">
+                                <h3 className="font-26 mb-3 font-weight-900">
+                                    Experience Reimagination
+                                </h3>
+                                <div className="text-box py-2">
+                                    <p>Reforming the <br/> Health Customer <br/> Experience</p>
+                                </div>
+                                <div className="text-box py-2">
+                                    <p>Reinventing the <br/> Banking Customer <br/> Experience</p>
+                                </div>
+                                <div className="text-box py-2">
+                                    <p>Reimagining Insurance Value <br/> Proposition and Customer <br/> Experience</p>
+                                </div>
+                            </div>
+                            <div className="col-md-2 box-two"></div>
+                        </div>
+                    </div>
+                </section>
+            </main>
         </>
     );
 };
