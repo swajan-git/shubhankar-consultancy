@@ -84,18 +84,18 @@ const ServicePage = () => {
                             <OrangeHorizontalLine center={true} />
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row mt-5">
                         <div className="col-md-6">
                             <ModernServiceCard reverse={true} textR={true} data={changeManagementData[0]} />
-                            <ModernServiceCard reverse={true} textR={true} data={changeManagementData[0]} />
-                            <ModernServiceCard reverse={true} textR={true} data={changeManagementData[0]} />
-                            <ModernServiceCard reverse={true} textR={true} data={changeManagementData[0]} />
+                            <ModernServiceCard reverse={true} textR={true} data={changeManagementData[1]} />
+                            <ModernServiceCard reverse={true} textR={true} data={changeManagementData[2]} />
+                            <ModernServiceCard reverse={true} textR={true} data={changeManagementData[3]} />
                         </div>
                         <div className="col-md-6">
-                            <ModernServiceCard br={true} data={changeManagementData[0]} />
-                            <ModernServiceCard br={true} data={changeManagementData[0]} />
-                            <ModernServiceCard br={true} data={changeManagementData[0]} />
-                            <ModernServiceCard br={true} data={changeManagementData[0]} />
+                            <ModernServiceCard br={true} data={changeManagementData[4]} />
+                            <ModernServiceCard br={true} data={changeManagementData[5]} />
+                            <ModernServiceCard br={true} data={changeManagementData[6]} />
+                            <ModernServiceCard br={true} data={changeManagementData[7]} />
                         </div>
                     </div>
                 </div>
@@ -103,7 +103,7 @@ const ServicePage = () => {
             <div className="container">
                 <div className="row neg-mt-26">
                     <div className="col-md-6 offset-md-3">
-                        <VIIModernServiceCard data={changeManagementData[0]} />
+                        <VIIModernServiceCard data={changeManagementData[8]} />
                     </div>
                 </div>
             </div>
