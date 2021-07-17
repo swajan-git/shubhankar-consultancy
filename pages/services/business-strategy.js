@@ -5,9 +5,25 @@ import VIIModernServiceCard from '../../components/ServicePages/VIIModernService
 import { BsArrowRight } from "react-icons/bs"
 
 const ServicePage = () => {
-    const heroTitle = `Lorem ipsum dolor sit amet consectetur.`;
-    const heroText = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, incidunt, eaque magni necessitatibus repellat distinctio nam porro repellendus iure odit tempore dolorum.`;
-    const heroImg = `https://source.unsplash.com/random/800x550`;
+
+    const sections = [
+        {
+            name: `Our Strategy`,
+            link: `Our-Strategy`
+        },
+        {
+            name: `Strategic Services`,
+            link: `Strategic-Services`
+        },
+        {
+            name: `Case Studies`,
+            link: `Case-Studies`
+        },
+        {
+            name: `Blogs`,
+            link: `Blogs`
+        },
+    ]
 
     return (
         <>
@@ -28,8 +44,9 @@ const ServicePage = () => {
                             </div>
                         </div>
                     </div>
+                    <div id="Our-Strategy" ></div>
                 </section>
-                <ServicePageScroll one="BPO Service" two="Case Studies" three="What We Think" four="Blogs" />
+                <ServicePageScroll one={sections[0]} two={sections[1]} three={sections[2]} four={sections[3]} />
                 <section className="our-strategy text-white">
                     <div className="container-fluid">
                         <div className="row">
@@ -49,6 +66,7 @@ const ServicePage = () => {
                             </div>
                         </div>
                     </div>
+                    <div id="Strategic-Services" ></div>
                 </section>
                 {/* sharable */}
                 <section className="py-4 bg-gray">

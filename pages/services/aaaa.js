@@ -9,7 +9,6 @@ const ServicePage = () => {
     return (
         <>
             <ServicePageHero title={heroTitle} text={heroText} img={heroImg} />
-            <ServicePageScroll />
             <section className="service-intro py-5" id="intro">
                 <div className="container">
                     {/* intro heading */}

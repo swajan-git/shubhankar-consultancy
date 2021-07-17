@@ -14,7 +14,7 @@ const ServicePage = () => {
         <>
             <main className="data-analytics">
                 <ServicePageHero title={heroTitle} text={heroText} img={heroImg} />
-                <ServicePageScroll one="What We Deliver" two="The AI Impact" three="Our Capabilities" four="What We Think" />
+                {/* <ServicePageScroll one="What We Deliver" two="The AI Impact" three="Our Capabilities" four="What We Think" /> */}
                 <section className="service-intro py-5" id="one">
                     <div className="container">
                         {/* intro heading */}

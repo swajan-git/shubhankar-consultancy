@@ -12,9 +12,24 @@ import { changeManagementData } from '../../shared/data/service-data/changeManag
 import VIIModernServiceCard from '../../components/ServicePages/VIIModernServiceCard';
 
 const ServicePage = () => {
-    const heroTitle = `Lorem ipsum dolor sit amet consectetur.`;
-    const heroText = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, incidunt, eaque magni necessitatibus repellat distinctio nam porro repellendus iure odit tempore dolorum.`;
-    const heroImg = `https://source.unsplash.com/random/800x550`;
+    const sections = [
+        {
+            name: `Growth`,
+            link: `Growth`
+        },
+        {
+            name: `How We Work`,
+            link: `How-We-Work`
+        },
+        {
+            name: `Case Studies`,
+            link: `Case-Studies`
+        },
+        {
+            name: `Blogs`,
+            link: `Blogs`
+        },
+    ]
     return (
         <>
             <section className="service-hero py-5">
@@ -30,8 +45,10 @@ const ServicePage = () => {
                         </div>
                     </div>
                 </div>
+                <div id={sections[0].link} ></div>
+
             </section>
-            <ServicePageScroll one="BPO Service" two="Case Studies" three="What We Think" four="Blogs" />
+            <ServicePageScroll one={sections[0]} two={sections[1]} three={sections[2]} four={sections[3]} />
 
             <section>
                 <div className="container-fluid">
@@ -49,6 +66,7 @@ const ServicePage = () => {
                             <p>
                                 Organizations that prioritize people and address their basic human needs as their own will unleash their employees' full potential and climb up the growth chart.
                             </p>
+
                         </div>
                         <div className="col-md-6 change-second">
                             {/* <img src="/img/services/bpo/bps-spectacle.jpg" alt="" className="img-fluid" /> */}
@@ -67,10 +85,13 @@ const ServicePage = () => {
                             <h5 className="font-weight-bold">ANOTHER LINK TO REDIRECT TO ANOTHER WEBSITE</h5>
                             <h2>Lorem ipsum dolor sit amet consectetur.</h2>
                             <button className="btn btn-link px-0">READ MORE <BsArrowRight /> </button>
+                            <div id={sections[1].link} ></div>
                         </div>
                     </div>
                 </div>
+                
             </section>
+
             <section className="py-5 bg-dark-gray">
                 <div className="container my-4">
                     <div className="row">
