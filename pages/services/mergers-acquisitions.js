@@ -1,190 +1,113 @@
-import { useState } from 'react';
-import ServicePageHero from '../../components/ServicePages/ServicePageHero';
-import ServicePageScroll from '../../components/ServicePages/ServicePageScroll';
-import YouTubeResponsiveEmbed from '../../components/shared/YouTubeResponsiveEmbed';
-import { BsArrowRight } from "react-icons/bs"
-import ServiceSectionLayout from '../../components/ServicePages/ServiceSectionLayout';
-import { randomImg } from '../../shared/data';
+import MergersCard from "../../components/Cards/MergersCard";
+import SEOLayout from "../../components/shared/SEOLayout";
+import { mergersCapabilities, mergersHow } from "../../shared/data/service-data/mergers-acquisitions";
+
 
 const ServicePage = () => {
-    const heroTitle = `Lorem ipsum dolor sit amet consectetur.`;
-    const heroText = `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, incidunt, eaque magni necessitatibus repellat distinctio nam porro repellendus iure odit tempore dolorum.`;
-    const heroImg = `https://source.unsplash.com/random/800x550`;
     return (
         <>
-            <ServicePageHero title={heroTitle} text={heroText} img={heroImg} />
-            <section className="service-intro py-5" id="intro">
-                <div className="container">
-                    {/* intro heading */}
-                    <div className="row mb-4">
-                        <div className="col-md-8">
-                            <h1 className="font-44 font-weight-900">
-                                Driving change by unlocking human ingenuity
-                            </h1>
+            <SEOLayout title="Mergers & Acquisitions | Shubhankar Consulting" />
+            <main className="mergers">
+                <section className="section-one pt-5">
+                    <div className="container-fluid mt-5 pb-4 white-bottom">
+                        <div className="row">
+                            <div className="col-md-5 offset-md-2">
+                                <h1 className="display-4 text-white font-weight-900 pb-3 ">
+                                    Mergers & <br />Acquisitions <span className="orangered-dot">.</span>
+                                </h1>
+                                <p className="mt-1 text-white font-18">
+                                    Mergers & Acquisition deals allow you to turn quickly, but it's still an unexplored area in terms of strategizing in Bangladesh. We can assist you in staying on track to get strategic value from your endeavors.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-md-6">
-                            <p className="mb-4 font-18">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eveniet error veritatis deserunt obcaecati suscipit nobis officiis vero, provident praesentium in nulla repellendus soluta id rerum saepe, quos unde iure ipsa aperiam ratione. Reiciendis beatae voluptatum eveniet asperiores placeat necessitatibus!
-                            </p>
-                            <p className="mb-4 font-18">
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, non distinctio, libero ad voluptatum molestias aliquid laboriosam corporis corrupti nobis neque ipsum commodi possimus porro reprehenderit animi sapiente?
-                            </p>
-                            <p className="mb-4 font-18">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae a adipisci aspernatur ipsa voluptatibus, blanditiis dicta. Eum illum aliquam ex.
-                            </p>
+                    <div className="container-fluid py-5 white-bottom">
+                        <div className="row mb-4">
+                            <div className="col-md-6 offset-md-2">
+                                <h3 className="font-36 text-white mb-3 font-weight-900">
+                                    Indulge in Relevant M&A Deals and Creating Impact
+                                </h3>
+                            </div>
                         </div>
-                        <div className="col-md-6">
-                            <YouTubeResponsiveEmbed youTubeId="L7c4wS7T_T8" />
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section className="py-4 bg-gray">
-                <div className="container bg-white">
-                    <div className="row py-3 d-flex align-items-center">
-                        <div className="col-md-3" style={{ borderRight: "4px solid blue" }}>
-                            <img src="https://source.unsplash.com/random/800x500" alt="" className="img-fluid" />
-                        </div>
-                        <div className="col-md-9 pl-0 pl-md-4">
-                            <h5 className="font-weight-bold">ANOTHER LINK TO REDIRECT TO ANOTHER WEBSITE</h5>
-                            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-                            <button className="btn btn-link px-0">READ MORE <BsArrowRight /> </button>
+                        <div className="row mb-5">
+                            <div className="col-md-2 orange-right-top-bottom"></div>
+                            <div className="col-md-5 pl-md-4 text-white">
+                                <p className="font-18">
+                                    Increasing the value of your firm for a merger and acquisition could be a solution for many businesses suffering from the effects of the pandemic.
+                                </p>
+                                <p className="font-18 mt-4">
+                                    Completing effective M&As, on the other hand, is difficult and fraught with difficulties. Chief executives and C-suite executives are being encouraged to consider hidden solvency difficulties and potential liabilities, which may be concealed by present government financial assistance and policies aimed at encouraging enterprises to trade. However, insolvency law and directors' duties may indicate a different approach.
+                                </p>
+                                <p className="font-18 mt-4">
+                                    Your M&A decisions must be aligned with your business objectives and promise significant value. It appears simple, but mastering it is challenging. We help firms develop swift and cost-effective strategies and reach their stakeholders with our significant experience in planning and implementing such deals.
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </section>
-            <ServiceSectionLayout title="Accelerating equality">
-                <div className="row">
-                    <div className="col-md-6">
-                        <p className="mb-4 font-18">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus eveniet error veritatis deserunt obcaecati suscipit nobis officiis vero, provident praesentium in nulla repellendus soluta id rerum saepe, quos unde iure ipsa aperiam ratione. Reiciendis beatae voluptatum eveniet asperiores placeat necessitatibus!
-                        </p>
-                        <p className="mb-4 font-18">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, non distinctio, libero ad voluptatum molestias aliquid laboriosam corporis corrupti nobis neque ipsum commodi possimus porro reprehenderit animi sapiente?
-                        </p>
-                        <p className="mb-4 font-18">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae a adipisci aspernatur ipsa voluptatibus, blanditiis dicta. Eum illum aliquam ex.
-                        </p>
-                        <button className="btn btn-lg btn-dark mt-5 px-5">READ MORE</button>
-                    </div>
-                    <div className="col-md-6">
-                        <img src={randomImg + "800x700"} alt="" className="img-fluid" />
-                    </div>
-                </div>
-            </ServiceSectionLayout>
-            <section className="py-4 bg-gray">
-                <div className="container bg-white">
-                    <div className="row py-3 d-flex align-items-center">
-                        <div className="col-md-3" style={{ borderRight: "4px solid blue" }}>
-                            <img src="https://source.unsplash.com/random/800x500" alt="" className="img-fluid" />
-                        </div>
-                        <div className="col-md-9 pl-0 pl-md-4">
-                            <h5 className="font-weight-bold">ANOTHER LINK TO REDIRECT TO ANOTHER WEBSITE</h5>
-                            <h2>Lorem ipsum dolor sit amet consectetur.</h2>
-                            <button className="btn btn-link px-0">READ MORE <BsArrowRight /> </button>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <ServiceSectionLayout title="How we work" id="how-we-work">
-                <div className="row">
-                    <div className="col-md-6 mb-4">
-                        <div className="bg-gray px-4 py-5">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-6 mb-4">
-                        <div className="bg-gray px-4 py-5">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-6 mb-4">
-                        <div className="bg-gray px-4 py-5">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-6 mb-4">
-                        <div className="bg-gray px-4 py-5">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                        </div>
-                    </div>
-                </div>
-            </ServiceSectionLayout>
-            <ServiceSectionLayout title="Creating healthy and resilient workforces" bg="gray">
-                <div className="row">
-                    <div className="col-md-6">
-                        <p className="mb-4 font-18">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi ea ut doloremque aspernatur qui voluptas dolore adipisci maxime, a laudantium sequi commodi officia odio atque consequatur cumque vitae tempore! Molestias itaque eveniet veniam, a labore sit dolorem possimus provident facere in dolorum accusamus cum nulla. Molestiae iste natus hic laborum.
-                        </p>
-                        <p className="mb-4 font-18">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exercitationem, non distinctio, libero ad voluptatum molestias aliquid laboriosam corporis corrupti nobis neque ipsum commodi possimus porro reprehenderit animi sapiente?
-                        </p>
-                        <p className="mb-4 font-18">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae a adipisci aspernatur ipsa voluptatibus, blanditiis dicta. Eum illum aliquam ex.
-                        </p>
-                    </div>
-                    <div className="col-md-6">
-                        <img src={randomImg + "800x700"} alt="" className="img-fluid" />
-                    </div>
-                </div>
-            </ServiceSectionLayout>
-            <ServiceSectionLayout title="Business functions workforce blog">
-                <div className="row">
-                    <div className="col-md-4 mb-4">
-                        <div className="bg-gray px-4 py-4">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                            <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                        </div>
-                    </div>
-                    <div className="col-md-4 mb-4">
-                        <div className="bg-gray px-4 py-4">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                            <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                        </div>
-                    </div>
-                    <div className="col-md-4 mb-4">
-                        <div className="bg-gray px-4 py-4">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                            <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                        </div>
-                    </div>
-                </div>
-            </ServiceSectionLayout>
-            <ServiceSectionLayout title="Case Studies" id="case-studies" bg="gray">
-                <div className="row">
-                    <div className="col-md-4 mb-4">
-                        <div className="bg-gray px-4 py-4">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                            <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                        </div>
-                    </div>
-                    <div className="col-md-4 mb-4">
-                        <div className="bg-gray px-4 py-4">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                            <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                        </div>
-                    </div>
-                    <div className="col-md-4 mb-4">
-                        <div className="bg-gray px-4 py-4">
-                            <h4 className="font-weight-bold">Lorem, ipsum dolor.</h4>
-                            <p className="font-20">Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim a quae libero laudantium accusantium voluptates itaque aspernatur non cupiditate, eveniet nihil aliquam.</p>
-                            <button className="btn btn-link px-0 mt-2">READ MORE <BsArrowRight /> </button>
-                        </div>
-                    </div>
-                </div>
-            </ServiceSectionLayout>
+                </section>
+                <section className="capabilities bg-dark py-5">
+                    <div className="container-fluid">
+                        <div className="row">
+                            <div className="col-md-4 offset-md-2">
+                                <h3 className="font-36 text-white mb-3 font-weight-900">
+                                    Capabilities
+                                </h3>
+                                <div className="orange-left pl-4 py-4">
+                                    <p className="mb-0 text-white pl-2">
+                                        We can encounter any point in the process to analyze your project from planning to implementation with our diverse and cross-cutting experiences.
+                                    </p>
+                                </div>
 
+                            </div>
+                        </div>
+                        <div className="row no-gutters mt-5">
+                            <div className="col-md-2 bg-white"></div>
+                            <div className="col-md-3 mod pr-md-4">
+                                <MergersCard data={mergersCapabilities[0]} />
+                            </div>
+                            <div className="col-md-3  pr-md-4">
+                                <MergersCard data={mergersCapabilities[1]} />
+                            </div>
+                            <div className="col-md-3  pr-md-4">
+                                <MergersCard data={mergersCapabilities[2]} />
+                            </div>
+                        </div>
+                        <div className="row no-gutters mt-5">
+                            <div className="col-md-3">
+                            </div>
+                            <div className="col-md-3  pr-md-4">
+                                <MergersCard data={mergersCapabilities[1]} />
+                            </div>
+                            <div className="col-md-3 mod2">
+                                <MergersCard data={mergersCapabilities[2]} />
+                            </div>
+                            <div className="col-md-3 bg-white"></div>
+
+                        </div>
+                    </div>
+                </section>
+                <section className="we-work py-5">
+              
+                    <div className="container">
+                    <div className="d-flex">
+                                    <h3 className="font-36 mb-3 orange-bottom font-weight-900">
+                                        How We Work
+                                    </h3>
+                                </div>
+                        <div className="row mt-5 mb-5">
+                            <div className="col-md-4">
+                                <MergersCard data={mergersHow[0]} />
+                            </div>
+                            <div className="col-md-4">
+                                <MergersCard data={mergersHow[1]} />
+                            </div>
+                            <div className="col-md-4">
+                                <MergersCard data={mergersHow[2]} />
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
         </>
     );
 };

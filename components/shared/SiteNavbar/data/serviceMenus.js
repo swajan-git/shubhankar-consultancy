@@ -5,42 +5,42 @@ export const serviceMenus = [
         link: 'business-process-outsourcing-index'
     },
     {
-        id: 0,
+        id: 1,
         name: `Business Strategy`,
         link: `business-strategy`,
     },
     {
-        id: 0,
+        id: 2,
         name: `Change Management`,
         link: `change-management`,
     },
     {
-        id: 0,
+        id: 3,
         name: `Customer Experience`,
         link: `customer-experience`,
     },
     {
-        id: 0,
+        id: 4,
         name: `Data & Analytics`,
         link: `data-analytics`,
     },
     {
-        id: 0,
+        id: 5,
         name: `Finance Consulting`,
         link: `finance-consulting`,
     },
     {
-        id: 0,
+        id: 6,
         name: `Marketing`,
         link: `marketing`,
     },
     {
-        id: 0,
+        id: 7,
         name: `Mergers & Acquisitions`,
         link: `mergers-acquisitions`,
     },
     {
-        id: 0,
+        id: 8,
         name: `Supply Chain Management`,
         link: `supply-chain-management`,
     },

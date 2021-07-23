@@ -1,0 +1,14 @@
+main.mergers {
+    .section-one {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, .4)),url("/img/services/mergers-acquisitions/bg.jpeg");
+        background-position: top right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    section.we-work{
+        background: url("/img/services/mergers-acquisitions/laptop-boy.jpeg");
+        background-position: top right;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
