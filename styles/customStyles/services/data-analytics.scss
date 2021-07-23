@@ -1,0 +1,26 @@
+main.data-analytics{
+    .hero{
+        background: linear-gradient(0deg, rgba(6, 36, 121, 0.493), #061731e3), url("/img/services/data-analytics/bg01.jpeg");
+        background-position: center left;
+        background-size: cover;
+        background-repeat: no-repeat;
+       
+    }
+    .title-section{
+        background: linear-gradient(0deg, rgba(29, 13, 255, 0.493), #4b06a7e3), url("/img/services/data-analytics/bg01.jpeg");
+        background-position: center center;
+        // background-size: cover;
+        background-repeat: no-repeat;
+        margin-top: -30px;
+        margin-bottom: 80px;
+    }
+    .ai-impact{
+        background: linear-gradient(0deg, rgba(29, 13, 255, 0.493), #4b06a7e3), url("/img/services/data-analytics/bg01.jpeg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    img.data-search{
+        height:130px
+    }
+}
