@@ -6,6 +6,7 @@ import InsightMegaMenu from "./InsightMegaMenu";
 import BlogMegaMenu from "./BlogsMegaMenu";
 import CaseMegaMenu from "./CaseMegaMenu";
 import ServicesMegaMenu from "./ServicesMegaMenu";
+import IndustriesMegaMenu from "./IndustriesMegaMenu";
 
 const SiteNavbar = () => {
     const shadow = true;
@@ -22,6 +23,7 @@ const SiteNavbar = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav style={{ color: "#FFFFFF" }} className="ml-auto text-center mt-1">
                         <ServicesMegaMenu />
+                        <IndustriesMegaMenu/>
                         <Nav.Item>
                             <Nav.Link eventKey="122" className=" single-item"><Link href="/insights"><span className="nav-link">Insights</span></Link></Nav.Link>
                         </Nav.Item>
@@ -30,7 +32,7 @@ const SiteNavbar = () => {
                         </Nav.Item>
                         {/* <InsightMegaMenu /> */}
                         {/* <BlogMegaMenu /> */}
-                        <CaseMegaMenu />
+                        {/* <CaseMegaMenu /> */}
                         <NavDropdown title="About Us" className="mr-0">
          
                             <NavDropdown.Item eventKey="3">

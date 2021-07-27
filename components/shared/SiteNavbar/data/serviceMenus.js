@@ -44,6 +44,8 @@ export const serviceMenus = [
         name: `Supply Chain Management`,
         link: `supply-chain-management`,
     },
+]
+export const industriesMenus = [
     {
         id: 0,
         name: `Capital Markets & Wealth Management`,

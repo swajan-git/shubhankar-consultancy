@@ -87,13 +87,13 @@ const ServicePage = () => {
                     </div>
                 </section>
                 <section className="we-work py-5">
-              
+
                     <div className="container">
-                    <div className="d-flex">
-                                    <h3 className="font-36 mb-3 orange-bottom font-weight-900">
-                                        How We Work
-                                    </h3>
-                                </div>
+                        <div className="d-flex">
+                            <h3 className="font-36 mb-3 orange-bottom font-weight-900">
+                                How We Work
+                            </h3>
+                        </div>
                         <div className="row mt-5 mb-5">
                             <div className="col-md-4">
                                 <MergersCard data={mergersHow[0]} />
