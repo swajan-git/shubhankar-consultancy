@@ -1,0 +1,22 @@
+main.nature {
+    .bg-section {
+        background: 
+            url("/img/industries/natural-resources/bg.jpeg");
+        background-position: bottom left;
+        background-size: cover;
+        background-repeat: no-repeat;
+        .bg-blue{
+            background: linear-gradient(to right, rgba(20, 6, 219, 0.6), rgba(20, 6, 219, 0.7)),;
+        }
+    }
+    .bg-color {
+        background: linear-gradient(to right, rgba(50, 105, 255, 0.534), rgba(52, 116, 255, 0.534));
+    }
+
+    .bg-transparent-blue {
+        background-color: rgba(20, 6, 219, 0.781);
+    }
+    h3 {
+        font-weight: 600;
+    }
+}
