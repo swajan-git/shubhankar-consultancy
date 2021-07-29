@@ -1,0 +1,19 @@
+main.insurance {
+    .bg-section {
+        padding-top: 160px;
+        background:linear-gradient(to right, rgba(4, 9, 24, 0.534), rgba(7, 15, 31, 0.534)), url("/img/industries/insurance/bg.jpeg");
+        background-position: top right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bg-color{
+        background: linear-gradient(to right, rgba(50, 105, 255, 0.534), rgba(52, 116, 255, 0.534));
+    }
+
+    .bg-transparent-blue{
+        background-color: rgba(20, 6, 219, 0.781);
+    }
+    h3{
+        font-weight: 600;
+    }
+}

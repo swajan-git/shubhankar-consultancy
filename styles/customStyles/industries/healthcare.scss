@@ -1,0 +1,16 @@
+main.healthcare {
+    .bg-section {
+        padding-top: 200px;
+        background: linear-gradient(to right, rgba(50, 105, 255, 0.534), rgba(52, 116, 255, 0.534)),url("/img/industries/healthcare/bg.jpeg");
+        background-position: top right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .bg-transparent-blue{
+        background-color: rgba(20, 6, 219, 0.781);
+    }
+    h3{
+        font-weight: 600;
+    }
+}
