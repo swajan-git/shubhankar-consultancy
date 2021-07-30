@@ -1,6 +1,7 @@
 .business-strategy {
     .hero {
-        background: linear-gradient(0deg, rgba(6, 36, 121, 0.493), #061731e3), url("/img/services/business-strategy/bg.png");
+        background: linear-gradient(0deg, rgba(6, 36, 121, 0.493), #061731e3),
+            url("/img/services/business-strategy/bg.png");
         background-position: center left;
         background-size: cover;
         background-repeat: no-repeat;
@@ -10,36 +11,39 @@
         .orange-dot {
             font-size: 55px;
             color: #fc9724;
-            font-family: 'Open Sans', sans-serif;
+            font-family: "Open Sans", sans-serif;
         }
         .orangered-dot {
             font-size: 55px;
             color: #fc7a24;
-            font-family: 'Open Sans', sans-serif;
+            font-family: "Open Sans", sans-serif;
         }
     }
-    .our-strategy{
-        background: linear-gradient(0deg, rgba(11, 14, 22, 0.493), #050d1a1f), url("/img/services/business-strategy/our-strategy.jpg");
+    .our-strategy {
+        background: linear-gradient(0deg, rgba(11, 14, 22, 0.493), #050d1a1f),
+            url("/img/services/business-strategy/our-strategy.jpg");
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
     }
-    .our-services{
-        background: linear-gradient(0deg, rgba(11, 14, 22, 0.493), #050d1aa1), url("/img/services/business-strategy/service-bg.png");
+    .our-services {
+        background: linear-gradient(0deg, rgba(11, 14, 22, 0.493), #050d1aa1),
+            url("/img/services/business-strategy/service-bg.png");
         background-position: top right;
         background-size: cover;
         background-repeat: no-repeat;
     }
 }
 
-
 .orange-dot {
-    font-size: 55px;
+    font-size: 75px;
+    line-height: 40px;
     color: #fc9724;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
 .orangered-dot {
-    font-size: 55px;
+    font-size: 75px;
+    line-height: 40px;
     color: #d84106;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
 }
