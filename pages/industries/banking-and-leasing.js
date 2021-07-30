@@ -40,22 +40,22 @@ const IndustriesPage = () => {
                             <div className="col-md-3 orange-right"></div>
                             <div className="col-md-6 py-5">
                                 <h3 className="font-36 mb-4 text-dark font-weight-900">
-                                    Capabilities
+                                   Banking Capabilities
                                 </h3>
                             </div>
                             <div className="col-md-3"></div>
                         </div>
-                        <div className="row ">
+                        <div className="row capabilities">
                             <div className="col-md-3 "></div>
                             <div className="col-md-1 orange-right orange-top"></div>
                             <div className="col-md-5">
-                                <h3>Comprehensive Understanding of Regulations</h3>
+                                <h3 className="mb-4">Comprehensive Understanding of Regulations</h3>
                                 <p>
                                 We understand legal limits, various accounting standards across nations, cultural variances, client expectations, and the obstacles that CIOs and CFOs face in making the best business decisions.
                                 </p>
 
 
-                                <h3 className="mb-4 mt-4">Guidance from Scratch</h3>
+                                <h3 className="mb-4 mt-5">Guidance from Scratch</h3>
                                 <p>
                                 From the definition of the strategy through the implementation of the solution, we are with our clients every step of the way.
                                 </p>
