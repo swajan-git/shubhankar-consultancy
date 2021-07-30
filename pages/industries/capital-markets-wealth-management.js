@@ -39,7 +39,7 @@ const IndustriesPage = () => {
                                 </h3>
                             </div>
                         </div>
-                        <div className="row">
+                        <div className="row capabilities">
                             <div className="col-md-3 orange-bottom bg-white"></div>
                             <div className="col-md-1 orange-bottom bg-white orange-top orange-right"></div>
                             <div className="col-md-5 bg-white">
@@ -61,7 +61,7 @@ const IndustriesPage = () => {
                 </section>
                 <section className="bg-white py-5">
                     <div className="container-fluid">
-                        <div className="row">
+                        <div className="row capabilities">
                             <div className="col-md-6 offset-md-3">
                                 <h3 className="py-4 mt-5">Investment Management</h3>
                                 <p>

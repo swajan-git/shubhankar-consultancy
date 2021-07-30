@@ -48,23 +48,13 @@ export const serviceMenus = [
 export const industriesMenus = [
     {
         id: 0,
-        name: `Capital Markets & Wealth Management`,
+        name: `Capital Markets`,
         link: `capital-markets-wealth-management`,
     },
     {
         id: 0,
         name: `Pharmaceuticals & Chemicals`,
         link: `pharmaceuticals-chemicals`,
-    },
-    {
-        id: 0,
-        name: `Consumer Goods & Services`,
-        link: `consumer-goods-services`,
-    },
-    {
-        id: 0,
-        name: `Energy`,
-        link: `energy`,
     },
     {
         id: 0,
@@ -86,6 +76,18 @@ export const industriesMenus = [
         name: `Natural Resources`,
         link: `natural-resources`,
     },
+    {
+        id: 0,
+        name: `Consumer Goods & Services`,
+        link: `consumer-goods-services`,
+    },
+    {
+        id: 0,
+        name: `Energy`,
+        link: `energy`,
+    },
+
+   
     {
         id: 0,
         name: `Government & Non-Profit`,

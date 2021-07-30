@@ -38,7 +38,7 @@ const IndustriesPage = () => {
                             </div>
                             <div className="col-md-3 bg-transparent-blue"></div>
                         </div>
-                        <div className="row ">
+                        <div className="row capabilities">
                             <div className="col-md-3 orange-right"></div>
                             <div className="col-md-6 offset-md-1 pb-5">
                                 <h3 className="py-4">Production & Operations </h3>
