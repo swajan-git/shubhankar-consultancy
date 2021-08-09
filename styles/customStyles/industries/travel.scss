@@ -1,0 +1,15 @@
+main.travel{
+    .section-two {
+        background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, .4)),url("/img/industries/travel/proppler.jpeg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-bottom: 4px solid #fff;
+    }
+    section.we-work{
+        background: url("/img/industries/travel/window.jpeg");
+        background-position: top right;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}

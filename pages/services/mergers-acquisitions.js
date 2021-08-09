@@ -57,7 +57,6 @@ const ServicePage = () => {
                                         We can encounter any point in the process to analyze your project from planning to implementation with our diverse and cross-cutting experiences.
                                     </p>
                                 </div>
-
                             </div>
                         </div>
                         <div className="row no-gutters mt-5">
