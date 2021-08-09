@@ -1,0 +1,29 @@
+main.consumer-goods {
+    .bg-section {
+        background:linear-gradient(to right, rgba(4, 9, 24, 0.534), rgba(7, 15, 31, 0.534)), url("/img/industries/consumer-goods/bg.jpeg");
+        background-position: top right;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .how-help{
+        background:linear-gradient(to right, rgba(28, 12, 255, 0.699), rgba(0, 17, 255, 0.651)), url("/img/industries/consumer-goods/hand.jpeg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bg-color{
+        background: linear-gradient(to right, rgba(50, 105, 255, 0.534), rgba(52, 116, 255, 0.534));
+    }
+
+    .bg-transparent-blue{
+        background-color: #3613ff94;
+    }
+    h3{
+        font-weight: 700;
+    }
+    .bottom-bar{
+        background-color: #fc5e24;
+        height: 6px;
+        width: 70%;
+    }
+}
