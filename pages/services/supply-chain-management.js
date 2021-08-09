@@ -164,7 +164,7 @@ const SupplyChainManagement = () => {
 
 export default SupplyChainManagement;
 
-const SupplyCard = ({ data }) => {
+export const SupplyCard = ({ data }) => {
     return (
         <>
             <div className="supply-card py-5 px-4">
