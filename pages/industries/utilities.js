@@ -1,4 +1,6 @@
 import SEOLayout from "../../components/shared/SEOLayout";
+import { utilitySegments } from "../../shared/data/industry-data/utilitiesData";
+import { SupplyCard } from "../services/supply-chain-management";
 
 
 const IndustriesPage = () => {
@@ -44,42 +46,55 @@ const IndustriesPage = () => {
                         <div className="row capabilities">
                             <div className="col-md-3 orange-bottom bg-white"></div>
                             <div className="col-md-1 orange-bottom bg-white orange-top orange-right"></div>
-                            <div className="col-md-5 bg-white">
+                            <div className="col-md-7 bg-white">
                                 <h3 className="py-4 mt-5">Industry segments we serve</h3>
-                                <p>
-                                    Reinvigorated. Transformed. Asset managers now confront a variety of challenges and opportunities, including bending the cost curve, identifying new sources of alpha, reinventing operating models, and boosting returns. Optimal capital spending, data-driven analytics, AI-enhanced insights, and agile, adaptable real-time operations are now required for success.
-                                </p>
-                                <p>
-                                    We work with asset managers, institutional investors, and asset servicers to help them improve their business models and expand faster. We help businesses prosper in today's markets by streamlining and integrating front, middle, and back office activities and specialized platforms, boosting risk posture and data delivery, and using disruptive breakthroughs like AI, predictive analytics, and distributed ledgers.
-                                </p>
-                                <h3 className="py-4 mt-5">Wealth Management</h3>
-                                <p>
-                                    Clients today want a whole new level of service that is more educated, personalized, and transparent than ever before, and they expect it faster than ever before. Companies that rise to the digital challenge use industry data to restructure their businesses from the ground up and aim for operational excellence—and many won't go it alone.
-                                    We create end-to-end solutions for premier wealth management firms by using our deep industry experience, broad range of capabilities, and synergies across our whole organization.
+                                <div className="row">
+                                    <div className="col-md-4">
+                                        <SupplyCard data={utilitySegments[0]} />
+                                    </div>
+                                    <div className="col-md-4">
+                                        <SupplyCard data={utilitySegments[1]} />
+                                    </div>
+                                    <div className="col-md-4">
+                                        <SupplyCard data={utilitySegments[0]} />
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-md-1 bg-white"></div>
+                        </div>
+                        <div className="row pb-4 bg-white pt-5 capabilities">
+                            <div className="col-md-3 bg-white"></div>
+                            <div className="col-md-4">
+                                <h3 className="py-4">Capabilities</h3>
+                                <p className="font-18 mt-4 mb-5">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem, dolor iusto rerum facilis in, eveniet, sequi tempore eos aperiam officiis reiciendis?
                                 </p>
                             </div>
+                            <div className="offset-md-2 col-md-3 orange-top orange-left orange-ottom"></div>
                         </div>
-                    </div>
-                </section>
-                <section className="bg-white py-5">
-                    <div className="container-fluid">
-                        <div className="row capabilities">
-                            <div className="col-md-6 offset-md-3">
-                                <h3 className="py-4 mt-5">Investment Management</h3>
-                                <p>
-                                    Regardless of your strategy approach, any future-ready organization will need a digitally connected operating model to keep costs low while providing better experiences for customers and staff.
-                                </p>
-                                <p>
-                                    Using our market-relevant skills, we develop services and solutions that can assist investment banks in transforming and seeking competitive advantages.
-                                </p>
-                                <h3 className="py-4 mt-5">Market Infrastructure</h3>
-                                <p>
-                                    We work with exchanges, clearing houses, central securities depositories, and custodians to build long-term strategies, technology, and operations.                                </p>
+                        <div className="row mar-neg">
+                            <div className="col-md-4 offset-md-3">
+                                <div className="row">
+                                    <div className="col-md-6 mb-4">
+                                        <UtilCard data={{title:`Strategy and Consulting`}} />
+                                    </div>
+                                    <div className="col-md-6 mb-4">
+                                        <UtilCard data={{title:`CFO and Enterprise Value`}} />
+                                    </div>
+                                    <div className="col-md-6 mb-4">
+                                        <UtilCard data={{title:`Security`}} />
+                                    </div>
+                                  
+                                </div>
                             </div>
-                            <div className="col-md-3 orange-top orange-left orange-bottom"></div>
+                            <div className="offset-md-2 col-md-3 orange-bottom orange-left "></div>
+
                         </div>
+                        <div className="row py-5"></div>
                     </div>
+
                 </section>
+
             </main>
         </>
     );
@@ -87,3 +102,14 @@ const IndustriesPage = () => {
 
 export default IndustriesPage;
 
+
+export const UtilCard = ({ data }) => {
+    return (
+        <>
+            <div className="util-card py-4 px-4">
+                <h5 className="font-bold mb-0">{data.title}</h5>
+                {/* <p className="mt-3">{data.text} </p> */}
+            </div>
+        </>
+    )
+}
