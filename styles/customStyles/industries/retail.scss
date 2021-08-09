@@ -1,0 +1,19 @@
+main.retail{
+    .bg-section {
+        padding-top: 30px;
+        background:linear-gradient(to right, rgba(4, 9, 24, 0.534), rgba(7, 15, 31, 0.534)), url("/img/industries/retail/bg.jpeg");
+        background-position: center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bg-transparent-blue{
+        background-color: rgba(33, 17, 255, 0.774);
+    }
+    .cap-info{
+        h3{
+            font-size:26px;
+            font-weight: 600;
+        }
+        margin-bottom: 36px;
+    }
+}

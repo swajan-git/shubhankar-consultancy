@@ -96,7 +96,7 @@ export const industriesMenus = [
     {
         id: 0,
         name: `Retail`,
-        link: `Retail`,
+        link: `retail`,
     },
     {
         id: 0,
