@@ -1,0 +1,27 @@
+main.energy{
+    .bg-section {
+        background:linear-gradient(to right, rgba(4, 9, 24, 0.534), rgba(7, 15, 31, 0.534)), url("/img/industries/energy/bg.jpeg");
+        background-position: bottom center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bg-transparent-blue{
+        background-color: rgba(53, 17, 255, 0.466);
+    }
+    
+    .cap-info{
+        h3{
+            font-size:26px;
+            font-weight: 600;
+        }
+        margin-bottom: 46px;
+    }
+    @media (min-width: 1200px) {
+        .large-top-pad {
+            padding-top: 290px;
+        }
+    }
+    .bg-magenta{
+        background-color:#44118A;
+    }
+}
