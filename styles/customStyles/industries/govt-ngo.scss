@@ -4,9 +4,11 @@ main.gov-ngo{
         background-position: bottom center;
         background-size: cover;
         background-repeat: no-repeat;
+        filter: saturate(200%);
     }
     .bg-transparent-blue{
-        background-color: rgba(81, 17, 255, 0.603);
+        background-color: rgba(30, 18, 190, 0.342);
+        filter: saturate(600%);
     }
     
     .cap-info{

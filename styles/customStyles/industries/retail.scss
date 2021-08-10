@@ -5,9 +5,11 @@ main.retail{
         background-position: center center;
         background-size: cover;
         background-repeat: no-repeat;
+        // filter: saturate(200%);
     }
     .bg-transparent-blue{
-        background-color: rgba(33, 17, 255, 0.774);
+        background-color: rgba(33, 17, 255, 0.5);
+        filter: saturate(600%);
     }
     .cap-info{
         h3{

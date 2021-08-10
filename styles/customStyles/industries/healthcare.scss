@@ -4,10 +4,14 @@ main.healthcare {
         background-position: bottom right;
         background-size: cover;
         background-repeat: no-repeat;
+        filter: saturate(200%);
+
     }
 
     .bg-blue {
-        background: linear-gradient(to right, rgba(23, 19, 247, 0.753), rgba(62, 30, 241, 0.678));
+        
+
+        background: linear-gradient(to right, rgba(13, 11, 119, 0.6), rgba(33, 12, 153, 0.6));
     }
     h3 {
         font-weight: 900;
