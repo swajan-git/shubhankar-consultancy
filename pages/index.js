@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import CoreValues from '../components/HomePageComponents/CoreValues'
 import FeaturedClients from '../components/HomePageComponents/FeaturedClients'
+import ImpactfulIdeas from '../components/HomePageComponents/ImpactfulIdeas'
 import OurPurpose from '../components/HomePageComponents/OurPurpose'
 import ReimagineYourCareer from '../components/HomePageComponents/ReimagineYourCareer'
 import YouTubeResponsiveEmbed from '../components/shared/YouTubeResponsiveEmbed'
@@ -20,6 +21,7 @@ export default function Home() {
                 <OurPurpose/>
                 <CoreValues />
                 <FeaturedClients/>
+                <ImpactfulIdeas/>
                 <ReimagineYourCareer/>
             </main>
         </>

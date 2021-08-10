@@ -15,6 +15,7 @@ main.home-page{
             display: flex;
             align-items: center;
             justify-content: center;
+            transition: all .3s ease-in-out;
             img{
                 height:110px;
             }
@@ -31,12 +32,20 @@ main.home-page{
         .icon-card.two{
             background-color: rgba(19, 101, 255, 0.1);
             filter: saturate(200%);
+            &:hover{
+                // background-color: rgba(250, 125, 9, 0.466);
+
+            }
 
         }
 
         .icon-card.three{
             background-color: rgba(255, 16, 16, 0.1);
             filter: saturate(200%);
+        }
+        .icon-card:hover{
+            background-color: rgba(250, 146, 9, 0.2);
+
         }
     }
 }
