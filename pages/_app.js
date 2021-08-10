@@ -10,7 +10,7 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <NextNprogress
-        color="#EB823A"
+        color="#fc5e24"
       />
       <BlogsContextProvider>
 
@@ -23,3 +23,4 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp
+
