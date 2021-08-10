@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import CoreValues from '../components/HomePageComponents/CoreValues'
 import FeaturedClients from '../components/HomePageComponents/FeaturedClients'
+import ReimagineYourCareer from '../components/HomePageComponents/ReimagineYourCareer'
 import YouTubeResponsiveEmbed from '../components/shared/YouTubeResponsiveEmbed'
 import { siteLink } from '../shared/data'
 
@@ -31,8 +32,7 @@ export default function Home() {
                 </section>
                 <CoreValues />
                 <FeaturedClients/>
-
-
+                <ReimagineYourCareer/>
             </main>
         </>
     )

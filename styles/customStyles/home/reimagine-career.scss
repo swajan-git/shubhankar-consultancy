@@ -1,0 +1,31 @@
+.reimagine-career {
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    position: relative;
+
+    video {
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        z-index: 0;
+        position: absolute;
+    }
+    .overlay {
+        background-color: rgba(0,0, 0, 0.4);
+        object-fit: cover;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+        position: absolute;
+    }
+
+    .content {
+        p{
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 1);
+            // text-shadow: 10px 1px 0 #ff0000;
+
+        }
+        z-index: 5;
+    }
+}

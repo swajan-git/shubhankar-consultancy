@@ -21,19 +21,22 @@ main.home-page{
         }
 
         .icon-card.one{
-            background-color: rgba(255, 230, 2, 0.09);
-            
+            background-color: rgba(255, 232, 25, 0.1);
+            filter: saturate(200%);
             img{
                 height:190px
             }
         }
 
         .icon-card.two{
-            background-color: rgba(2, 91, 255, 0.09);
+            background-color: rgba(19, 101, 255, 0.1);
+            filter: saturate(200%);
+
         }
 
         .icon-card.three{
-            background-color: rgba(255, 2, 2, 0.09);
+            background-color: rgba(255, 16, 16, 0.1);
+            filter: saturate(200%);
         }
     }
 }
