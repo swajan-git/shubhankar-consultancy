@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import CoreValues from '../components/HomePageComponents/CoreValues'
+import FeaturedClients from '../components/HomePageComponents/FeaturedClients'
 import YouTubeResponsiveEmbed from '../components/shared/YouTubeResponsiveEmbed'
 import { siteLink } from '../shared/data'
 
@@ -29,6 +30,7 @@ export default function Home() {
                     </div>
                 </section>
                 <CoreValues />
+                <FeaturedClients/>
 
 
             </main>
