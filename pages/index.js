@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import CoreValues from '../components/HomePageComponents/CoreValues'
 import FeaturedClients from '../components/HomePageComponents/FeaturedClients'
+import HeroCarousel from '../components/HomePageComponents/HeroCarousel'
 import ImpactfulIdeas from '../components/HomePageComponents/ImpactfulIdeas'
 import OurPurpose from '../components/HomePageComponents/OurPurpose'
 import ReimagineYourCareer from '../components/HomePageComponents/ReimagineYourCareer'
@@ -18,6 +19,7 @@ export default function Home() {
             </Head>
 
             <main className="home-page">
+                <HeroCarousel/>
                 <OurPurpose/>
                 <CoreValues />
                 <FeaturedClients/>
