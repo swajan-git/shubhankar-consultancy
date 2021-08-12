@@ -6,6 +6,7 @@ import HeroCarousel from '../components/HomePageComponents/HeroCarousel'
 import ImpactfulIdeas from '../components/HomePageComponents/ImpactfulIdeas'
 import OurPurpose from '../components/HomePageComponents/OurPurpose'
 import ReimagineYourCareer from '../components/HomePageComponents/ReimagineYourCareer'
+import TheCoreTeam from '../components/HomePageComponents/TheCoreTeam'
 import YouTubeResponsiveEmbed from '../components/shared/YouTubeResponsiveEmbed'
 import { siteLink } from '../shared/data'
 
@@ -25,6 +26,7 @@ export default function Home() {
                 <FeaturedClients/>
                 <ImpactfulIdeas/>
                 <ReimagineYourCareer/>
+                <TheCoreTeam/>
             </main>
         </>
     )

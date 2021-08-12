@@ -19,7 +19,7 @@ const HeroCarousel = () => {
     return (
         <>
             <section className="hero-carousel">
-                <Carousel controls={false} slide interval="3000" >
+                <Carousel pause={false} controls={false} slide interval="3000" >
                     <Carousel.Item>
                         <div className="video-bg py-5 bg-secondary d-flex align-items-center text-white">
                             <video loop muted autoPlay="autoplay" >
