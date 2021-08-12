@@ -20,7 +20,7 @@ const ImpactfulIdeas = () => {
                     <div className="row d-flex align-items-center justify-content-center mt-5">
                         <div className="col-md-7">
                             <div className="row no-gutters">
-                                <div className="col-md-4">
+                                <div className="col-md-4 mb-5">
                                     <div className="idea-card">
                                         <img src={imgRack} alt="" />
                                         <div className="pr-md-3">
@@ -33,7 +33,7 @@ const ImpactfulIdeas = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-4 pt-md-5">
+                                <div className="col-md-4 pt-md-5 mt-md-5 mb-5">
                                     <div className="idea-card">
                                         <img src={imgWood} alt="" />
                                         <div className="pr-md-3">
@@ -46,7 +46,7 @@ const ImpactfulIdeas = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className="col-md-4 pt-md-5 mt-md-5">
+                                <div className="col-md-4 pt-md-5 mt-md-5 mb-5">
                                     <div className="idea-card mt-md-5 pt-md-5">
                                         <img src={imgLeaf} alt="" />
                                         <div className="pr-md-3">
