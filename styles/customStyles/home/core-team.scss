@@ -7,4 +7,43 @@
             border-left: 4px solid #fc5e24;
         }
     }
+
+    .member{
+        text-align: center;
+        img{
+            border-radius: 20px
+        }
+
+        .two{
+            .img-placeholder{
+                width: 120%;
+                margin: 0 -26px;
+            }
+        }
+        .img-placeholder{
+            height:280px;
+            width:100%;
+            border-radius:20px;
+            background-color: #9b9b9b;
+            box-shadow: 0 0 10px rgba(100, 100, 100, .4);
+
+        }
+
+        .to{
+            img{
+                width: 120%;
+                margin: 0 -30px;
+                display: block;
+                
+            }
+            z-index: 5;
+        }
+        .one,.three{
+            margin-top: 80px;
+        }
+    }
+}
+
+.z-5{
+    z-index: 5 !important;
 }

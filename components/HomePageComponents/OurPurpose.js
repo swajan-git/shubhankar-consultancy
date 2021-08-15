@@ -25,7 +25,7 @@ const OurPurpose = () => {
                 <div className="container content">
                     <div className="row">
                         <div className="col-md-8 offset-md-2 text-center">
-                            <img src="/img/home/icons/bulb.png" alt="" className="logo-white" />
+                            <img src="https://firebasestorage.googleapis.com/v0/b/creative-agency-live.appspot.com/o/videos%2Flogo-white.png?alt=media&token=328c2682-5780-4742-81ab-a9fee3fa8a90" alt="" className="logo-white" />
                         </div>
                     </div>
                 </div>
