@@ -3,6 +3,7 @@ import OrangeHorizontalLine from '../../components/shared/OrangeHorizontalLine';
 import { businessStrategyData } from '../../shared/data/service-data/businessStrategy';
 import VIIModernServiceCard from '../../components/ServicePages/VIIModernServiceCard';
 import { BsArrowRight } from "react-icons/bs"
+import SEOLayout from '../../components/shared/SEOLayout';
 
 const ServicePage = () => {
 
@@ -27,6 +28,7 @@ const ServicePage = () => {
 
     return (
         <>
+        <SEOLayout title="Business Strategy | Services" />
             {/* <ServicePageHero title={heroTitle} text={heroText} img={heroImg} /> */}
             <main className="business-strategy">
                 <section className="hero py-5">

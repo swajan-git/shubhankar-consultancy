@@ -5,6 +5,7 @@ import ServicePageHero from '../../components/ServicePages/ServicePageHero';
 import ServicePageScroll from '../../components/ServicePages/ServicePageScroll';
 import HorizontalLine from "../../components/shared/HorizontalLine";
 import OrangeHorizontalLine from "../../components/shared/OrangeHorizontalLine";
+import SEOLayout from "../../components/shared/SEOLayout";
 import { bpoServices } from "../../shared/data/service-data/bpo";
 
 const BusinessProcessOutsourcing = () => {
@@ -31,6 +32,8 @@ const BusinessProcessOutsourcing = () => {
     ]
     return (
         <>
+            <SEOLayout title="Business Process Outsourcing | Services" />
+
             <main className="bpo">
 
                 <section className="service-hero py-5">

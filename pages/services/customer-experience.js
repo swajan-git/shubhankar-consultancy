@@ -1,10 +1,12 @@
 import OrangeHorizontalLine from "../../components/shared/OrangeHorizontalLine"
+import SEOLayout from "../../components/shared/SEOLayout";
 
 
 const ServicePage = () => {
 
     return (
         <>
+         <SEOLayout title="Customer Experience | Services" />
             <main className="customer-experience">
                 <section className="exp-hero py-5">
 

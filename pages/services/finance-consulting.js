@@ -8,6 +8,7 @@ import { randomImg } from '../../shared/data';
 import OrangeHorizontalLine from '../../components/shared/OrangeHorizontalLine';
 import { financeConsultingData } from '../../shared/data/service-data/financeConsultingData';
 import ModernServiceCard from '../../components/ServicePages/ModernServiceCard';
+import SEOLayout from '../../components/shared/SEOLayout';
 
 const ServicePage = () => {
     const heroTitle = `Lorem ipsum dolor sit amet consectetur.`;
@@ -15,6 +16,7 @@ const ServicePage = () => {
     const heroImg = `https://source.unsplash.com/random/800x550`;
     return (
         <>
+        <SEOLayout title="Finance Consulting | Services" />
             <main className="finance-consulting">
                 <section className="pt-5 bg-fin">
                     <div className="container">

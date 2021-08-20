@@ -1,9 +1,11 @@
+import SEOLayout from "../../components/shared/SEOLayout";
 
 
 const ServicePage = () => {
 
     return (
         <>
+        <SEOLayout title="Marketing | Services" />
             <main className="marketing">
                 <section className="exp-hero py-5">
                 </section>
