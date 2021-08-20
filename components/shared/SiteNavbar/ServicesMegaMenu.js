@@ -24,7 +24,7 @@ export default ServicesMegaMenu;
 const SingleMenu = ({ item }) => {
     return (
         <>
-            <div className={"col-md-3 py-0 py-md-3 col-6 text-left text-blue mega-item font-18 "}>
+            <div className={"col-md-4 py-0 py-md-3 col-6 text-left text-blue mega-item font-18 "}>
                 <Link href={"/services/" + item.link}>{item.name}</Link>
             </div>
         </>

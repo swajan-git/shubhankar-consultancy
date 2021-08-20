@@ -15,10 +15,10 @@ const IndustriesPage = () => {
                                     Energy <span className="orangered-dot">.</span>
                                 </h1>
                                 <p className="font-18">
-                                The energy industry is the mother of all sectors in Bangladesh. Every industry, establishment, and initiative is reliant on energy in some way. The most extensively used energy sources are electricity and natural gas. The country's fast urbanization, industrialisation, and enormous population have all combined to create a massive demand for energy. The power sector is playing an increasingly important role in the growth of our economy. For the majority of the country's economic operations, electricity is the primary source of energy. Electricity is fully dependent on the availability of machinery and equipment in businesses and establishments.
+                                    The energy industry is the mother of all sectors in Bangladesh. Every industry, establishment, and initiative is reliant on energy in some way. The most extensively used energy sources are electricity and natural gas. The country's fast urbanization, industrialisation, and enormous population have all combined to create a massive demand for energy. The power sector is playing an increasingly important role in the growth of our economy. For the majority of the country's economic operations, electricity is the primary source of energy. Electricity is fully dependent on the availability of machinery and equipment in businesses and establishments.
                                 </p>
                                 <p className="font-18 mt-4 mb-5">
-                                We provide clients with energy audit reports that include precise recommendations for energy conservation and efficiency. Clients are also informed about prospective tax benefits for investing in alternative energy systems.                                </p>
+                                    We provide clients with energy audit reports that include precise recommendations for energy conservation and efficiency. Clients are also informed about prospective tax benefits for investing in alternative energy systems.                                </p>
                             </div>
                             <div className="col-md-3 bg-transparent-blue"></div>
                         </div>
@@ -31,22 +31,22 @@ const IndustriesPage = () => {
                                 <div className="pl-md-5">
                                     <div className="cap-info">
                                         <h3 className="text-dark ">
-                                        Research and Manufacturing
+                                            Research and Manufacturing
                                         </h3>
                                         <p className="font-18">
-                                        We help you build and sustain a competitive advantage by optimizing upstream operational models.
+                                            We help you build and sustain a competitive advantage by optimizing upstream operational models.
                                         </p>
                                     </div>
                                     <div className="cap-info">
                                         <h3 className="text-dark ">
-                                        Shift to Energy
+                                            Shift to Energy
                                         </h3>
                                         <p className="font-18">
-                                        Providing information, services, and solutions to assist our clients in their efforts to achieve net-zero emissions.
+                                            Providing information, services, and solutions to assist our clients in their efforts to achieve net-zero emissions.
                                         </p>
                                     </div>
                                 </div>
-                                
+
                             </div>
                             <div className="col-md-3 bg-transparent-blue">
                                 <div className="mx-5 px-4">
@@ -57,28 +57,28 @@ const IndustriesPage = () => {
                         <div className="row mb-5">
                             <div className="col-md-3 bg-white orange-right orange-bottom"></div>
                             <div className="col-md-6 bg-white px-5 ">
-                               
+
                                 <div className="pl-md-5">
                                     <div className="cap-info">
                                         <h3 className="text-dark ">
-                                        Exchanges and Transactions
+                                            Exchanges and Transactions
                                         </h3>
                                         <p className="font-18">
-                                        By controlling energy trading risk, lowering expenses, and monetizing opportunities, we help you realize new efficiency.
+                                            By controlling energy trading risk, lowering expenses, and monetizing opportunities, we help you realize new efficiency.
                                         </p>
                                     </div>
                                     <div className="cap-info">
                                         <h3 className="text-dark ">
-                                        Marketing and Rebranding
+                                            Marketing and Rebranding
                                         </h3>
                                         <p className="font-18">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aut at veniam alias saepe, sit necessitatibus iste, sequi illum numquam quam vitae!
+                                            Transform the customer experience at the service station by implementing digital-based solutions.
                                         </p>
                                     </div>
                                 </div>
-                                
+
                             </div>
-                        <div className="col-md-3 bg-white"></div>
+                            <div className="col-md-3 bg-white"></div>
                         </div>
                     </div>
                 </section>

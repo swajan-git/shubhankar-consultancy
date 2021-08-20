@@ -24,7 +24,7 @@ const IndustriesPage = () => {
                             <div className="col-md-3 bg-white orange-right"></div>
                             <div className="col-md-4 pt-md-5 bg-white pb-md-5">
                                 <p className="font-20 font-weight-600 mt-md-5 pt-5">
-                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo dolor aspernatur iure commodi debitis saepe itaque explicabo nesciunt magni beatae officiis fugiat ea a cumque, eligendi assumenda amet quaerat aperiam iste maiores. Reprehenderit fugit dolores ducimus.
+                                The consumer products industry is made up of stocks and companies that sell goods to individuals and households rather than to manufacturers and industries. These businesses create and sell things that are designed for the purchasers' personal use and delight. Food manufacturing, packaged goods, apparel, beverages, autos, and electronics are all part of this industry.
                                 </p>
                             </div>
                             <div className="col-md-5 p-md-5 p-4">
@@ -56,7 +56,7 @@ const IndustriesPage = () => {
                             <div className="col-md-1 orange-top orange-right"></div>
                             <div className="col-md-5 py-5">
                                 <p className="font-18 font-weight-600 my-5">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laborum, odio nulla assumenda officiis eligendi distinctio, officia sed cumque ipsum totam quam cupiditate impedit laudantium autem maxime alias facere sequi asperiores architecto in consequuntur error quas aut. Dolores obcaecati ad eveniet quam repellat?
+                                With the pandemic imposing massive changes in the consumer goods and services industry, we help our clients achieve consumer relevance at the right size units and at the right pace with services encompassing growth strategy and execution, sales and trade promotion management, marketing, supply chain, and intelligent enterprise enablement. 
                                 </p>
                             </div>
                         </div>
@@ -78,7 +78,7 @@ const IndustriesPage = () => {
                                 <MergersCard data={consumerGoodsCapabilities[0]}/>
                             </div>
                             <div className="col-md-3">
-                                <MergersCard data={consumerGoodsCapabilities[0]}/>
+                                <MergersCard data={consumerGoodsCapabilities[1]}/>
                             </div>
                             <div className="col-md-3 orange-top orange-left orange-bottom"></div>
                         </div>
