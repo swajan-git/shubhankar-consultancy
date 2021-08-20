@@ -48,13 +48,28 @@ export const serviceMenus = [
 export const industriesMenus = [
     {
         id: 0,
+        name: `Banking & Leasing`,
+        link: `banking-and-leasing`,
+    },
+    {
+        id: 0,
         name: `Capital Markets`,
         link: `capital-markets-wealth-management`,
     },
     {
         id: 0,
-        name: `Pharmaceuticals & Chemicals`,
-        link: `pharmaceuticals-chemicals`,
+        name: `Consumer Goods & Services`,
+        link: `consumer-goods-services`,
+    },
+    {
+        id: 0,
+        name: `Energy`,
+        link: `energy`,
+    },
+    {
+        id: 0,
+        name: `Government & Non-Profit`,
+        link: `government-and-non-profit`,
     },
     {
         id: 0,
@@ -68,30 +83,13 @@ export const industriesMenus = [
     },
     {
         id: 0,
-        name: `Banking & Leasing`,
-        link: `banking-and-leasing`,
-    },
-    {
-        id: 0,
         name: `Natural Resources`,
         link: `natural-resources`,
     },
     {
         id: 0,
-        name: `Consumer Goods & Services`,
-        link: `consumer-goods-services`,
-    },
-    {
-        id: 0,
-        name: `Energy`,
-        link: `energy`,
-    },
-
-   
-    {
-        id: 0,
-        name: `Government & Non-Profit`,
-        link: `government-and-non-profit`,
+        name: `Pharmaceuticals & Chemicals`,
+        link: `pharmaceuticals-chemicals`,
     },
     {
         id: 0,

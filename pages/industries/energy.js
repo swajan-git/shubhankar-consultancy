@@ -15,12 +15,10 @@ const IndustriesPage = () => {
                                     Energy <span className="orangered-dot">.</span>
                                 </h1>
                                 <p className="font-18">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique labore aliquam consequatur nesciunt, quaerat eius modi, ad veritatis ipsa fugiat eos eveniet animi sed. Odio veritatis totam officiis sed, rem vel! Vero, laudantium. Natus facere a minima neque earum ut quod esse reiciendis repudiandae modi? Doloremque quasi quas saepe pariatur minima ratione repellendus, quibusdam explicabo!
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem inventore minus tenetur! Officiis iste perferendis dicta doloribus ea modi odit? Soluta itaque iste maxime rerum repudiandae aliquid deleniti mollitia nihil hic aperiam!
+                                The energy industry is the mother of all sectors in Bangladesh. Every industry, establishment, and initiative is reliant on energy in some way. The most extensively used energy sources are electricity and natural gas. The country's fast urbanization, industrialisation, and enormous population have all combined to create a massive demand for energy. The power sector is playing an increasingly important role in the growth of our economy. For the majority of the country's economic operations, electricity is the primary source of energy. Electricity is fully dependent on the availability of machinery and equipment in businesses and establishments.
                                 </p>
                                 <p className="font-18 mt-4 mb-5">
-                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia voluptatibus nostrum repellendus esse. Quas aliquid aperiam omnis ad, nulla sunt consequuntur fugit facilis veniam maxime eligendi illo incidunt, explicabo recusandae at consequatur!
-                                </p>
+                                We provide clients with energy audit reports that include precise recommendations for energy conservation and efficiency. Clients are also informed about prospective tax benefits for investing in alternative energy systems.                                </p>
                             </div>
                             <div className="col-md-3 bg-transparent-blue"></div>
                         </div>
@@ -33,18 +31,18 @@ const IndustriesPage = () => {
                                 <div className="pl-md-5">
                                     <div className="cap-info">
                                         <h3 className="text-dark ">
-                                            Program Development
+                                        Research and Manufacturing
                                         </h3>
                                         <p className="font-18">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aut at veniam alias saepe, sit necessitatibus iste, sequi illum numquam quam vitae!
+                                        We help you build and sustain a competitive advantage by optimizing upstream operational models.
                                         </p>
                                     </div>
                                     <div className="cap-info">
                                         <h3 className="text-dark ">
-                                            Budgeting
+                                        Shift to Energy
                                         </h3>
                                         <p className="font-18">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aut at veniam alias saepe, sit necessitatibus iste, sequi illum numquam quam vitae!
+                                        Providing information, services, and solutions to assist our clients in their efforts to achieve net-zero emissions.
                                         </p>
                                     </div>
                                 </div>
@@ -63,15 +61,15 @@ const IndustriesPage = () => {
                                 <div className="pl-md-5">
                                     <div className="cap-info">
                                         <h3 className="text-dark ">
-                                            Program Development
+                                        Exchanges and Transactions
                                         </h3>
                                         <p className="font-18">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aut at veniam alias saepe, sit necessitatibus iste, sequi illum numquam quam vitae!
+                                        By controlling energy trading risk, lowering expenses, and monetizing opportunities, we help you realize new efficiency.
                                         </p>
                                     </div>
                                     <div className="cap-info">
                                         <h3 className="text-dark ">
-                                            Budgeting
+                                        Marketing and Rebranding
                                         </h3>
                                         <p className="font-18">
                                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aut at veniam alias saepe, sit necessitatibus iste, sequi illum numquam quam vitae!

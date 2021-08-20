@@ -18,11 +18,12 @@ const IndustriesPage = () => {
                                 </h1>
 
                                 <p className="font-18">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti ipsa a quos placeat officia deserunt necessitatibus dignissimos modi exercitationem fuga veniam ratione non, totam nisi veritatis, officiis adipisci? Magni, assumenda? Nulla itaque, minima quae iure eos, quia odit officiis consequuntur nesciunt ipsum voluptas voluptate.
-                                </p>
+                                In many nations around the world, the relationship between the government and the charity sector is at a critical crossroads. The rise in government support for charities, particularly through acquisition of service contracts, has increased rivalry among organizations and fueled calls for greater accountability and outcome evaluation, forcing the government to enact more programmatic and administrative control.                               
+                                 </p>
+
                                 <p className="font-18">
-                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet vero voluptatum saepe illo velit iure non impedit est? Illo error maxime nostrum sed explicabo distinctio id voluptate nesciunt, dolores, odio aspernatur tenetur laborum reprehenderit perspiciatis.
-                                </p>
+                                Through advice on fundraising, communications, digital marketing, executive search, and other topics, we assist government and nonprofit organizations achieve their objectives. We provide a wide range of services, all of which are aimed to increase your organization's efficacy and efficiency, and help you succeed.
+                                                                </p>
                             </div>
                             <div className="col-md-3 bg-transparent-blue d-flex align-items-center">
                                 <div className="p-5 m-4">
@@ -48,7 +49,7 @@ const IndustriesPage = () => {
                                             Program Development
                                         </h3>
                                         <p className="font-18">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aut at veniam alias saepe, sit necessitatibus iste, sequi illum numquam quam vitae!
+                                        We help you design and implement programs using a proper roadmap and project goals. 
                                         </p>
                                     </div>
                                     <div className="cap-info">
@@ -56,7 +57,7 @@ const IndustriesPage = () => {
                                             Budgeting
                                         </h3>
                                         <p className="font-18">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aut at veniam alias saepe, sit necessitatibus iste, sequi illum numquam quam vitae!
+                                        We help you obtain your financial goals through proper budgeting, resource allocation, and resource optimization.
                                         </p>
                                     </div>
                                 </div>
@@ -72,15 +73,14 @@ const IndustriesPage = () => {
                                             Employee Strategizing
                                         </h3>
                                         <p className="font-18">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aut at veniam alias saepe, sit necessitatibus iste, sequi illum numquam quam vitae!
-                                        </p>
+                                        By laying out clear human resource roles and responsibilities, we will assist you in grooming an efficient and effective pool of strong employees.                                         </p>
                                     </div>
                                     <div className="cap-info">
                                         <h3 className="text-dark ">
                                             Negotiating
                                         </h3>
                                         <p className="font-18">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aut at veniam alias saepe, sit necessitatibus iste, sequi illum numquam quam vitae!
+                                        We broadly explain the trips and techniques to negotiate with the government and other organizations to help you win the largest share of the pie. 
                                         </p>
                                     </div>
                                 </div>
@@ -92,10 +92,10 @@ const IndustriesPage = () => {
                                 <div className="pl-md-5">
                                     <div className="cap-info">
                                         <h3 className="text-dark ">
-                                            Negotiating
+                                        Partnering with Government 
                                         </h3>
                                         <p className="font-18">
-                                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aut at veniam alias saepe, sit necessitatibus iste, sequi illum numquam quam vitae!
+                                        Learn how to put forward compelling proposals in front of the government for the betterment of both your organization and the country.
                                         </p>
                                     </div>
                                 </div>

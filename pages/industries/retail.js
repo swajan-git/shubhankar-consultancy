@@ -15,8 +15,7 @@ const IndustriesPage = () => {
                                     Retail <span className="orangered-dot">.</span>
                                 </h1>
                                 <p className="font-18 text-white">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero incidunt voluptatum ipsam commodi iure, dolorum perspiciatis molestias et ut. Neque odio voluptas temporibus.
-                                </p>
+                                    How do we transition retail from today's uncertainty to resiliency tomorrow? For new climates, new expectations, and new ways of working, adaptive retail is the way to go.                                </p>
                             </div>
                         </div>
                         <div className="row">
@@ -29,13 +28,16 @@ const IndustriesPage = () => {
                             <div className="col-md-2 bg-transparent-blue orange-right"></div>
                             <div className="col-md-7 pt-5 bg-transparent-blue text-white">
                                 <p className="font-18">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellat nulla in dolorum voluptatum aperiam minima molestias mollitia culpa dolore, quae accusamus, reprehenderit obcaecati esse? Perspiciatis quasi accusamus, laboriosam eligendi non nihil!
-                                </p>
+                                    The new imperative for retailers is adaptive retail. Retailers must be able to change quickly in the face of global disruption, external constraints, and obligations. Adapting entails evolution, and evolution is the key to remaining robust.                                </p>
                                 <p className="font-18">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellat nulla in dolorum voluptatum aperiam minima molestias mollitia culpa dolore, quae accusamus, reprehenderit obcaecati esse? Perspiciatis quasi accusamus, laboriosam eligendi non nihil!
-                                </p>
+                                    Retailers must adapt to three different factors:                                </p>
+                                <ul className="retail-adapt font-18">
+                                    <li>Adapt to new social, economic, and environmental climates.</li>
+                                    <li>Adapt to new employee, consumer, and investor expectations.</li>
+                                    <li>Adapt to changing working methods, including those involving technology, rivals, and partners.</li>
+                                </ul>
                                 <p className="font-18 pb-5">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic repellat nulla in dolorum voluptatum aperiam minima molestias mollitia culpa dolore, quae accusamus, reprehenderit obcaecati esse? Perspiciatis quasi accusamus, laboriosam eligendi non nihil!
+                                    Today's retail is rarely straightforward. Tomorrow's retail is open for business at all times.
                                 </p>
                             </div>
                             <div className="col-md-3"></div>
@@ -58,23 +60,31 @@ const IndustriesPage = () => {
                                         Retail Supply Chain
                                     </h3>
                                     <p className="font-18">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aut at veniam alias saepe, sit necessitatibus iste, sequi illum numquam quam vitae!
+                                        Future-proof your supply chain to match changing consumer demands, such as last-mile delivery and sustainable distribution.
                                     </p>
                                 </div>
                                 <div className="cap-info">
                                     <h3 className="text-dark ">
-                                        Retail Supply Chain
+                                        Retail Workforce Reimagined
                                     </h3>
                                     <p className="font-18">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aut at veniam alias saepe, sit necessitatibus iste, sequi illum numquam quam vitae!
+                                        Reorganize your store's footprint and formats to provide services and experiences that fit the needs of changing customers.
+                                    </p>
+                                </div>
+                                <div className="cap-info">
+                                    <h3 className="text-dark ">
+                                        Retail Store of the Future
+                                    </h3>
+                                    <p className="font-18">
+                                        Reorganize your store's footprint and formats to provide services and experiences that fit the needs of changing customers.
                                     </p>
                                 </div>
                                 <div className="cap-info mb-5 pb-5">
                                     <h3 className="text-dark ">
-                                        Retail Supply Chain
+                                        Retail IT Modernization
                                     </h3>
                                     <p className="font-18">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aut at veniam alias saepe, sit necessitatibus iste, sequi illum numquam quam vitae!
+                                        To enable customer interactions with speed and agility, futureproof your technology and create ecosystem connections.
                                     </p>
                                 </div>
                             </div>
@@ -96,23 +106,14 @@ const IndustriesPage = () => {
                                         Retail Supply Chain
                                     </h3>
                                     <p className="font-18">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aut at veniam alias saepe, sit necessitatibus iste, sequi illum numquam quam vitae!
+                                        Design your supply chain and product portfolio with your most loyal customers at the center.
                                     </p>
                                 </div>
                                 <div className="cap-info">
                                     <h3 className="text-dark ">
-                                        Retail Supply Chain
-                                    </h3>
+                                        Merchant Reimagined                                    </h3>
                                     <p className="font-18">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aut at veniam alias saepe, sit necessitatibus iste, sequi illum numquam quam vitae!
-                                    </p>
-                                </div>
-                                <div className="cap-info mb-5 pb-5">
-                                    <h3 className="text-dark ">
-                                        Retail Supply Chain
-                                    </h3>
-                                    <p className="font-18">
-                                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet aut at veniam alias saepe, sit necessitatibus iste, sequi illum numquam quam vitae!
+                                        The role “retail merchant” is reinvented through automation to provide predictive insights
                                     </p>
                                 </div>
                             </div>

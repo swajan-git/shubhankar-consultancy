@@ -23,18 +23,17 @@ const SiteNavbar = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav style={{ color: "#FFFFFF" }} className="ml-auto text-center mt-1">
                         <ServicesMegaMenu />
-                        <IndustriesMegaMenu/>
+                        <IndustriesMegaMenu />
                         <Nav.Item>
                             <Nav.Link eventKey="122" className=" single-item"><Link href="/insights"><span className="nav-link">Insights</span></Link></Nav.Link>
                         </Nav.Item>
-                        <Nav.Item>
+                        {/* <Nav.Item>
                             <Nav.Link eventKey="123" className=" single-item"><Link href="/blog"><span className="nav-link">Blog</span></Link></Nav.Link>
-                        </Nav.Item>
+                        </Nav.Item> */}
                         {/* <InsightMegaMenu /> */}
                         {/* <BlogMegaMenu /> */}
                         {/* <CaseMegaMenu /> */}
                         <NavDropdown title="About Us" className="mr-0">
-         
                             <NavDropdown.Item eventKey="3">
                                 <Link to="/goals-and-dreams">Goals & Dreams</Link>
                             </NavDropdown.Item>
