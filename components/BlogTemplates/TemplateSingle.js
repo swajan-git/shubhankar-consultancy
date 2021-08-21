@@ -16,16 +16,15 @@ const TemplateSingle = ({ blog, type, categories }) => {
                         </div>
                     </div>
                 </section>
-                <article>
-
+                <article className="insight">
                     <div className="container bg-white ">
                         <div className="p-0 p-md-5">
                             <div className="row">
-                                <div className="col-md-8">
+                                <div className="col-md-8 pr-md-5">
                                     {blog.brief && <div className="doc-content ck-content" dangerouslySetInnerHTML={{ __html: blog.brief }} ></div>}
                                     {blog.brief && <hr className="hr-black mb-4" /> }
                                     <PostSocialShare docLink="/" className="mb-4" link={siteLink + "blog/" + blog.slug} />
-                                    {blog.featuredImage&& <img src={blog.featuredImage} alt="" className="img-fluid mb-4" />}                                    {/* <img src={blog.featuredImage} alt="" className="img-fluid mb-5" /> */}
+                                    {blog.featuredImage&& <img src={blog.featuredImage} alt="" className="blog-featured-img mb-4" />}                                    {/* <img src={blog.featuredImage} alt="" className="img-fluid mb-5" /> */}
                                     <div className="doc-content ck-content" dangerouslySetInnerHTML={{ __html: blog.content }} ></div>
                                     <PostSocialShare docLink="/" className="mt-5" link={siteLink + "blog/" + blog.slug} />
                                 </div>
@@ -34,7 +33,7 @@ const TemplateSingle = ({ blog, type, categories }) => {
                                         <h4 className="font-weight-bold mb-4">About the <br /> Authors</h4>
                                         <ContentAuthors authorIds={blog.writers} />
                                     </div>}
-                                    <div className="w-100 mt-5 pt-4">
+                                    <div className="w-100 mt-5 pt-5">
                                         <h4 className="font-weight- mb-4">MORE ON THIS TOPIC</h4>
                                         <RelatedTopics blogs={[blog, blog, blog]} />
                                     </div>

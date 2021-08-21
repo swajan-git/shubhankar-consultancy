@@ -24,6 +24,13 @@
         line-height: 4.06rem;
     }
 }
+article.insight{
+    .blog-featured-img{
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
 // article {
 //     .doc-content img{
 //         width:100%

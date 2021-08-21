@@ -1,5 +1,5 @@
 import SquareImg from "../shared/SquareImg/SquareImg";
-
+import Link from "next/link"
 const RelatedTopics = ({blogs}) => {
     return (
         <>
@@ -13,7 +13,7 @@ export default RelatedTopics;
 const TopicContent =({blog})=>{
     return(
         <>
-        <div className="pt-2">
+        <div className="pt-0">
             <div className="row no-gutters">
                 <div className="col-md-5 pr-3">
                     <SquareImg img={blog.featuredImage}/>
@@ -21,7 +21,9 @@ const TopicContent =({blog})=>{
                 </div>
                 <div className="col-md-7">
                     <h6><u>{blog.category} </u> </h6>
-                    <h6 className="font-weight-bold">{blog.title} </h6>
+                    
+                    <h6 className="font-weight-bold mb-0"><Link href={"/insights/" + blog.slug}>{blog.title}</Link></h6>
+                    {blog.shortDescription && <p className="mb-0">{blog.shortDescription.slice(0, 40)+"..."}</p>}
                 </div>
             </div>
             

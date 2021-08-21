@@ -52,8 +52,8 @@ const InsightCard = ({ data }) => {
                     <div className="card-content col-md-8 p-3">
                         {/* <h2>Hello</h2> */}
                         <h1 className="h3 font-weight-bold">{data.title} </h1>
-                        <p className="excerpt">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia odio dolorem amet, sunt magnam asperiores exercitationem consequuntur? Molestias asperiores rerum doloremque reiciendis.</p>
-                        <Link href={"/insights/" + data.slug}>Read more...</Link>
+                        {data.shortDescription && <p classNameo="mb-0">{data.shortDescription.slice(0, 150) + "..."}</p>}
+                        <Link href={"/insights/" + data.slug}>Read more</Link>
                         {/* <p className="author">By Jrom</p> */}
                     </div>
                 </div>
