@@ -24,23 +24,26 @@ const IndustriesPage = () => {
                                     Energy Transformation
                                 </h3>
                                 <p className="mt-4 ">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, impedit. Assumenda hic inventore dolore ratione?                                </p>
+                                    As we get closer to net zero, utilities and energy service providers are stepping up to play a bigger role in the electrical era.                                </p>
                                 <p className="mt-4 ">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, temporibus tempore corrupti odio culpa nulla rerum assumenda ducimus, repellat ipsam ad mollitia accusantium eos unde quae qui?
+                                    This shift entails embracing change and incorporating digital and sustainability into an organization's DNA in order to reinvent the business, as well as forging new alliances and collaborating across industries in order to meet the changing demands of citizens, employees, investors, and other stakeholders.
                                 </p>
                                 <p className="mt-4 ">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt magni odio doloremque quibusdam corporis commodi vero, suscipit cum pariatur! Animi doloribus repellendus, recusandae odit quae obcaecati perspiciatis inventore est odio, reprehenderit qui sit, eaque rerum omnis.
+                                    We empower our clients to build sustainable businesses capable of achieving those expectations as a leading provider of consulting, digital transformation, and managed services to electric, gas, and water utilities throughout the world.
                                 </p>
-                                <p className="mt-4 ">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident totam modi corporis voluptate recusandae. Dolores nesciunt qui nostrum nisi hic omnis possimus quae nobis ad. Animi rerum mollitia itaque ducimus?
-                                </p>
+                                
+                             
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-md-3 bg-white orange-right"></div>
                             <div className="col-md-6 bg-white">
+                            <p className="mt-4 ">
+                                    Our industry professionals work with our ecosystem of partners to help our clients uncover cost-cutting possibilities and safely transition operations while offering sustainable, consistent energy experiences.
+                                </p>
                                 <p className="mt-3 ">
-                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos voluptas iusto delectus. Tempora est optio voluptas possimus voluptates provident? Saepe neque corrupti, dolor assumenda, fugiat veritatis pariatur necessitatibus nemo est sequi vero aspernatur, magnam hic architecto!                                </p>
+                                We assist utilities across the value chain in taking control of the energy transition and driving good change for their businesses, society, and the environment.
+                                </p>
                             </div>
                         </div>
                         <div className="row capabilities">
@@ -67,8 +70,7 @@ const IndustriesPage = () => {
                             <div className="col-md-4">
                                 <h3 className="py-4">Capabilities</h3>
                                 <p className="font-18 mt-4 mb-5">
-                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloremque quidem, dolor iusto rerum facilis in, eveniet, sequi tempore eos aperiam officiis reiciendis?
-                                </p>
+                                Full range of services in Strategy, Consulting, Operations and Technology that help companies transform the way the world works and lives.                                 </p>
                             </div>
                             <div className="offset-md-2 col-md-3 orange-top orange-left orange-ottom"></div>
                         </div>
@@ -76,15 +78,15 @@ const IndustriesPage = () => {
                             <div className="col-md-4 offset-md-3">
                                 <div className="row">
                                     <div className="col-md-6 mb-4">
-                                        <UtilCard data={{title:`Strategy and Consulting`}} />
+                                        <UtilCard data={{ title: `Strategy and Consulting` }} />
                                     </div>
                                     <div className="col-md-6 mb-4">
-                                        <UtilCard data={{title:`CFO and Enterprise Value`}} />
+                                        <UtilCard data={{ title: `CFO and Enterprise Value` }} />
                                     </div>
                                     <div className="col-md-6 mb-4">
-                                        <UtilCard data={{title:`Security`}} />
+                                        <UtilCard data={{ title: `Security` }} />
                                     </div>
-                                  
+
                                 </div>
                             </div>
                             <div className="offset-md-2 col-md-3 orange-bottom orange-left "></div>

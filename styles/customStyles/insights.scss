@@ -4,7 +4,7 @@ main.insights {
     font-size: 14px !important;
   }
   section.insight-hero {
-    background: url("/img/insights/insight-hero-bg.jpeg");
+    background: linear-gradient(to right, rgba(4, 9, 24, 0.3), rgba(7, 15, 31, 0.2)),url("/img/insights/insight-hero-bg.jpeg");
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;

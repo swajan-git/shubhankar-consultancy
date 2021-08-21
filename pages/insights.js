@@ -19,12 +19,13 @@ const PageInsights = () => {
                         </div>
                         <div className="scroll-container">
                             <div id="scroll-btn">
-                                <a href="#solution"><span></span><span></span><span></span></a>
+                                <a href="#articles"><span></span><span></span><span></span></a>
                             </div>
                         </div>
+                        <div id="articles"></div>
                     </div>
                 </section>
-                <section className="articles">
+                <section className="articles" >
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6 py-5">
