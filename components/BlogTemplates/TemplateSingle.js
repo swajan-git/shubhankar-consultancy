@@ -2,17 +2,25 @@ import { siteLink } from "../../shared/data";
 import ContentAuthors from "./ContentAuthors"
 import RelatedTopics from "./RelatedTopics"
 import PostSocialShare from "./SocialShare";
+import moment from 'moment';
+
+
 const TemplateSingle = ({ blog, type, categories }) => {
+    const startTime = new Date(blog.createdAt.seconds * 1000);
+    var check = moment(startTime);
+    var month = check.format('MMMM');
+    var day = check.format('D');
+    var year = check.format('YYYY');
     return (
         <>
             <main className="gray-bg pb-5 pt-4">
                 <section className="content-hero pb-4">
                     <div className="container">
                         <div className="px-0 px-md-5">
-                            <p className="text-blue font-weight-bold mb-4">{blog.category} </p>
-                            <p className={"text-underline font-weight-bold mb-2 mb-md-4"} ><u> Responsible Retail</u> </p>
+                            <p className="text-blue font-weight-bold mb-4"> </p>
+                            <p className={" font-weight-bold mb-2 mb-md-4"} ><span className="text-blue">{blog.category}</span>&nbsp; &nbsp; {` > `} &nbsp; &nbsp; <u> {blog.subCategory}</u> </p>
                             <h1 className="page-title">{blog.title} </h1>
-                            <p className="font-weight-bold mt-3 mb-0">APRIL 8, 2021</p>
+                            <p className="font-weight-bold mt-3 mb-0">{`${month} ${day}, ${year}`} </p>
                         </div>
                     </div>
                 </section>
