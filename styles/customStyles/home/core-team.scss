@@ -16,9 +16,16 @@
 
         .two{
             .img-placeholder{
-                width: 120%;
-                margin: 0 -26px;
+                width: 100%;
+                margin: 0;
             }
+            @media (min-width: 979px) {
+                .img-placeholder{
+                    width: 120%;
+                    margin: 0 -26px;
+                }
+            }
+            
         }
         .img-placeholder{
             height:280px;
