@@ -23,9 +23,9 @@ const SiteNavbar = () => {
                         </Nav.Item>
                         <ServicesMegaMenu />
                         <IndustriesMegaMenu />
-                        <Nav.Item>
+                        {/* <Nav.Item>
                             <Nav.Link eventKey="128" className=" single-item"><Link href="/insights"><span className="nav-link">Insights</span></Link></Nav.Link>
-                        </Nav.Item>
+                        </Nav.Item> */}
                         <InsightMegaMenu/>
                         <Nav.Item>
                             <Nav.Link eventKey="122" className=" single-item"><Link href="/about-us"><span className="nav-link">About US</span></Link></Nav.Link>

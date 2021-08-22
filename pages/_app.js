@@ -14,7 +14,7 @@ function MyApp({ Component, pageProps }) {
       />
       <BlogsContextProvider>
 
-        <SiteNavbar />
+        {/* <SiteNavbar /> */}
         <Component {...pageProps} />
         <SiteFooter />
       </BlogsContextProvider>

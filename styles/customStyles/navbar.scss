@@ -1,5 +1,5 @@
 .mega-item {
-    h5{
+    h5 {
         color: #000;
     }
     transition: all 0.3s ease-in-out;
@@ -9,18 +9,17 @@
     border: 1px solid transparent !important;
     // box-shadow: 0 0 2px rgba(0, 0, 0, 0.3);
     &:hover {
-        background-color: #fc5e24 ;
-        a{
+        background-color: #fc5e24;
+        a {
             color: #fff !important;
         }
         border: 1px solid rgba(0, 0, 0, 0.3) !important;
     }
- 
 }
-.text-blue{
+.text-blue {
     color: #0000ff !important;
 }
-h5.mega-item{
+h5.mega-item {
     color: #000;
 }
 
@@ -52,3 +51,20 @@ a.nav-link {
 .font-18 {
     font-size: 18px !important;
 }
+
+// .nav-item{
+//     .dropdown-toggle:hover{
+//         .dropdown-menu.megamenu{
+//             display: block !important;
+//         }
+//     }
+// }
+.insight-mega{
+    display: none !important;
+}
+.insight-drop:hover{
+    .insight-mega {
+        display: block !important;
+    }
+}
+

@@ -1,10 +1,11 @@
 import { useRouter } from 'next/router'
 import { useState, useEffect } from 'react';
 import Head from "next/head";
-import {  insightsCollectionRef } from '../../../shared/firebase/fire-app';
+import { insightsCollectionRef } from '../../../shared/firebase/fire-app';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
 import TemplateSingle from '../../../components/BlogTemplates/TemplateSingle';
 import { useBlogs } from '../../../shared/Hooks/useBlogs';
+import SiteNavbar from '../../../components/shared/SiteNavbar/SiteNavbar';
 const siteDescription = `I'm an independent contract developer who loves to work on, and write about ReactJS, NodeJS, JavaScript and other development stacks. I also have much expertise in working with serverless development projects with Firebase or AWS.`
 
 const blog = ({ blog }) => {
@@ -34,6 +35,7 @@ const blog = ({ blog }) => {
     return (
         <>
 
+
             <Head>
                 <title>{blog?.title} </title>
                 <meta property="og:url" content={blog?.slug} />
@@ -47,7 +49,9 @@ const blog = ({ blog }) => {
                 />
                 <meta property="og:image" content={blog?.featuredImage} />
             </Head>
+
             <body>
+                <SiteNavbar />
                 {/* <div className="py-text-center">
                     <button onClick={getD} className="btn-primary btn">log</button>
                     <button onClick={() => console.log(blog)} className="btn-primary btn">log</button>
@@ -65,7 +69,7 @@ export default blog;
 export const getServerSideProps = async (context) => {
 
     const blogRow = await insightsCollectionRef.where("slug", "==", context.params.slug).get();
-    let blog ={
+    let blog = {
         id: context.params.id,
         title: "hello"
     }
@@ -75,9 +79,9 @@ export const getServerSideProps = async (context) => {
     // }
     blogRow.forEach(doc => {
         const bl = JSON.parse(JSON.stringify({ id: doc.id, ...doc.data() }))
-            if (bl.slug === context.params.slug) {
-                blog = bl
-            }    
+        if (bl.slug === context.params.slug) {
+            blog = bl
+        }
     });
     // const blog = JSON.parse(JSON.stringify({ id: blogRow.id, ...blogRow.data() }))
     return {

@@ -1,4 +1,5 @@
 import Head from "next/head"
+import SiteNavbar from "./SiteNavbar/SiteNavbar";
 
 const SEOLayout = ({ title, description, img, url }) => {
     const siteTitle = "Shubhankar Consulting"
@@ -7,6 +8,8 @@ const SEOLayout = ({ title, description, img, url }) => {
     const siteUrl = "https://shubhankarconsulting.com"
     return (
         <>
+  
+        
             <Head>
                 <link rel="icon" href={"/favicon.ico"} />
                 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -24,6 +27,7 @@ const SEOLayout = ({ title, description, img, url }) => {
                 {/* <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> */}
                 <title>{title? title: siteTitle}</title>
             </Head>
+            <SiteNavbar/>
         </>
     );
 };
