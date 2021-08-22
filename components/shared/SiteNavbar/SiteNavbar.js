@@ -1,12 +1,8 @@
-import { Navbar, Container, Nav, DropdownButton, Dropdown, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav, NavDropdown } from "react-bootstrap";
 import Link from "next/link"
-import MegaMenuCommon from "./MegaMenuCommon";
-import { insightsMenuData } from "../../../shared/data/menuBarData";
-import InsightMegaMenu from "./InsightMegaMenu";
-import BlogMegaMenu from "./BlogsMegaMenu";
-import CaseMegaMenu from "./CaseMegaMenu";
 import ServicesMegaMenu from "./ServicesMegaMenu";
 import IndustriesMegaMenu from "./IndustriesMegaMenu";
+import InsightMegaMenu from "./InsightMegaMenu";
 
 const SiteNavbar = () => {
     const shadow = true;
@@ -22,18 +18,19 @@ const SiteNavbar = () => {
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav style={{ color: "#FFFFFF" }} className="ml-auto text-center mt-1">
+                        <Nav.Item>
+                            <Nav.Link eventKey="129" className="active single-item"><Link href="/"><span className="nav-link">Home</span></Link></Nav.Link>
+                        </Nav.Item>
                         <ServicesMegaMenu />
                         <IndustriesMegaMenu />
                         <Nav.Item>
-                            <Nav.Link eventKey="122" className=" single-item"><Link href="/insights"><span className="nav-link">Insights</span></Link></Nav.Link>
+                            <Nav.Link eventKey="128" className=" single-item"><Link href="/insights"><span className="nav-link">Insights</span></Link></Nav.Link>
                         </Nav.Item>
-                        {/* <Nav.Item>
-                            <Nav.Link eventKey="123" className=" single-item"><Link href="/blog"><span className="nav-link">Blog</span></Link></Nav.Link>
-                        </Nav.Item> */}
-                        {/* <InsightMegaMenu /> */}
-                        {/* <BlogMegaMenu /> */}
-                        {/* <CaseMegaMenu /> */}
-                        <NavDropdown title="About Us" className="mr-0">
+                        <InsightMegaMenu/>
+                        <Nav.Item>
+                            <Nav.Link eventKey="122" className=" single-item"><Link href="/about-us"><span className="nav-link">About US</span></Link></Nav.Link>
+                        </Nav.Item>
+                        {/* <NavDropdown title="About Us" className="mr-0">
                             <NavDropdown.Item eventKey="3">
                                 <Link to="/goals-and-dreams">Goals & Dreams</Link>
                             </NavDropdown.Item>
@@ -43,7 +40,7 @@ const SiteNavbar = () => {
                             <NavDropdown.Item eventKey="46">
                                 <Link to="/interns">Our Interns</Link>
                             </NavDropdown.Item>
-                        </NavDropdown>
+                        </NavDropdown> */}
                         <NavDropdown className="dustu" title="Contact Us">
                             <NavDropdown.Item eventKey="11">
                                 <Link to="/complaints">Complaints</Link>

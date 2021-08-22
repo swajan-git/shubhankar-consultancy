@@ -31,18 +31,18 @@ const IndustriesPage = () => {
                                 <p className="mt-4 ">
                                     We empower our clients to build sustainable businesses capable of achieving those expectations as a leading provider of consulting, digital transformation, and managed services to electric, gas, and water utilities throughout the world.
                                 </p>
-                                
-                             
+
+
                             </div>
                         </div>
                         <div className="row">
                             <div className="col-md-3 bg-white orange-right"></div>
                             <div className="col-md-6 bg-white">
-                            <p className="mt-4 ">
+                                <p className="mt-4 ">
                                     Our industry professionals work with our ecosystem of partners to help our clients uncover cost-cutting possibilities and safely transition operations while offering sustainable, consistent energy experiences.
                                 </p>
                                 <p className="mt-3 ">
-                                We assist utilities across the value chain in taking control of the energy transition and driving good change for their businesses, society, and the environment.
+                                    We assist utilities across the value chain in taking control of the energy transition and driving good change for their businesses, society, and the environment.
                                 </p>
                             </div>
                         </div>
@@ -70,7 +70,7 @@ const IndustriesPage = () => {
                             <div className="col-md-4">
                                 <h3 className="py-4">Capabilities</h3>
                                 <p className="font-18 mt-4 mb-5">
-                                Full range of services in Strategy, Consulting, Operations and Technology that help companies transform the way the world works and lives.                                 </p>
+                                    Full range of services in Strategy, Consulting, Operations and Technology that help companies transform the way the world works and lives.                                 </p>
                             </div>
                             <div className="offset-md-2 col-md-3 orange-top orange-left orange-ottom"></div>
                         </div>
