@@ -25,7 +25,7 @@ const CoreValues = () => {
                                             <div className="text-center bg-white py-4">
                                                 <h3 className="font-weight-900 mb-4">Integrity</h3>
                                                 <p className="font-18 font-weight-600">
-                                                    We uphold the utmost transparency when it comes to client servicing
+                                                    We uphold the utmost transparency when it comes to client servicing <br/> <br/>
                                                 </p>
                                             </div>
                                         </div>
@@ -49,7 +49,7 @@ const CoreValues = () => {
                                             <div className="text-center bg-white py-4">
                                                 <h3 className="font-weight-900 mb-4">Impactfulness</h3>
                                                 <p className="font-18 font-weight-600">
-                                                    We believe in going above and beyond to add value to your business
+                                                    We believe in going above and beyond to add value to your business <br/> <br/>
                                                 </p>
                                             </div>
                                         </div>
