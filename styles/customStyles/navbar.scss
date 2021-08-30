@@ -16,11 +16,12 @@
     }
     border: 1px solid transparent !important;
     &:hover {
-        background-color: #fc5e24;
+        // background-color: #fc5e24;
         a {
-            color: #fff !important;
+            color: #fc5e24 !important;
+            text-decoration: underline;
         }
-        border: 1px solid rgba(0, 0, 0, 0.3) !important;
+        // border: 1px solid rgba(0, 0, 0, 0.3) !important;
     }
 }
 .text-blue {
@@ -72,11 +73,17 @@ a.nav-link {
 //     }
 // }
 .insight-mega{
-    display: none !important;
+    display: block !important;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.3s linear;
 }
 .insight-drop:hover{
     .insight-mega {
+        visibility: visible !important;
+        opacity: 1;
         display: block !important;
+
     }
 }
 

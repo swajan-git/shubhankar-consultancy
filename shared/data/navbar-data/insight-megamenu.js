@@ -5,7 +5,7 @@ export const updatedInsightCategories =[
         name: `Industries & Services`,
         categories: [
             `Banking & Leasing`,
-            `BPO`,
+            `Business Process Outsourcing`,
             `Business Strategy`,
             `Capital Market`,
             `Change Management`,
