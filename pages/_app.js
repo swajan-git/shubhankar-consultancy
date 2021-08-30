@@ -9,9 +9,7 @@ import NextNprogress from 'nextjs-progressbar';
 function MyApp({ Component, pageProps }) {
   return (
     <>
-      <NextNprogress
-        color="#fc5e24"
-      />
+     
       <BlogsContextProvider>
 
         {/* <SiteNavbar /> */}

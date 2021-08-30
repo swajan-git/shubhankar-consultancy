@@ -8,7 +8,7 @@ const SiteNavbar = () => {
     const shadow = true;
     return (
         <>
-            <Navbar collapseOnSelect sticky="top" expand="lg"  className="py-0 bg-white">
+            <Navbar collapseOnSelect sticky="top" expand="lg" className="py-0 bg-white">
                 <Navbar.Brand>
                     <Link href="/">
                         <a href="/" className="font-weight-bold mb-0 ">
@@ -28,7 +28,7 @@ const SiteNavbar = () => {
                         {/* <Nav.Item>
                             <Nav.Link eventKey="128" className=" single-item"><Link href="/insights"><span className="nav-link">Insights</span></Link></Nav.Link>
                         </Nav.Item> */}
-                        <InsightMegaMenu/>
+                        <InsightMegaMenu />
                         <Nav.Item>
                             <Nav.Link eventKey="122" className=" single-item"><Link href="/about-us"><span className="nav-link">About US</span></Link></Nav.Link>
                         </Nav.Item>
@@ -43,14 +43,17 @@ const SiteNavbar = () => {
                                 <Link to="/interns">Our Interns</Link>
                             </NavDropdown.Item>
                         </NavDropdown> */}
-                        <NavDropdown className="dustu" title="Contact Us">
+                        {/* <NavDropdown className="dustu" title="Contact Us">
                             <NavDropdown.Item eventKey="11">
                                 <Link to="/complaints">Complaints</Link>
                             </NavDropdown.Item>
                             <NavDropdown.Item eventKey="12">
                                 <Link to="/get-in-touch">Get in touch</Link>
                             </NavDropdown.Item>
-                        </NavDropdown>
+                        </NavDropdown> */}
+                        <Nav.Item>
+                            <Nav.Link eventKey="126" className=" single-item"><Link href="/contact"><span className="nav-link">Contact</span></Link></Nav.Link>
+                        </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>
 

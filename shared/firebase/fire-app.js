@@ -34,3 +34,5 @@ export const userInfoCollectionRef = fireStoreDB
   .collection("users");
 
 export const writersCollectionRef = fireStoreDB.collection("writers");
+
+export const messagesCollectionRef = fireStoreDB.collection('messages');
