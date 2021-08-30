@@ -2,6 +2,8 @@ import { useForm } from "react-hook-form";
 import HorizontalLine from "../components/shared/HorizontalLine";
 import SEOLayout from "../components/shared/SEOLayout";
 import { messagesCollectionRef } from "../shared/firebase/fire-app";
+import { FaFacebookF, FaLinkedinIn, FaTwitter, FaEnvelope } from "react-icons/fa";
+
 
 import { send } from "emailjs-com"
 
@@ -38,9 +40,18 @@ const PageContact = () => {
                                 <p className="mt-4 font-18 pr-md-5">
                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, unde error, obcaecati eius ad minima eveniet consequatur harum dolorum necessitatibus suscipit explicabo.
                                 </p>
-                                <div className="pr-5">
-                                    <div className="pr-5">
-                                        {/* <img src={rafeulImg} alt="rafeul-hasan" className="img-fluid pr-5" /> */}
+                                <div className="social-icons py-5">
+                                    <div className="tutor-contact-icon-container" >
+                                        <div className="tutor-contact-icons"><FaLinkedinIn /></div>
+                                    </div>
+                                    <div className="tutor-contact-icon-container" >
+                                        <div className="tutor-contact-icons"><FaTwitter /></div>
+                                    </div>
+                                    <div className="tutor-contact-icon-container" >
+                                        <div className="tutor-contact-icons"><FaFacebookF /></div>
+                                    </div>
+                                    <div className="tutor-contact-icon-container" >
+                                        <div className="tutor-contact-icons"><FaEnvelope /></div>
                                     </div>
                                 </div>
                             </div>
