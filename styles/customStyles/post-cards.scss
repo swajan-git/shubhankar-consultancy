@@ -1,0 +1,55 @@
+.modern-post-card {
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+
+    .post-header {
+        display: flex;
+        width: 100%;
+        .left-bar {
+            position: relative;
+            width: 20%;
+            p {
+                font-size: 14px;
+            }
+            .icons {
+                position: absolute;
+                bottom: 16px;
+                transition: all 0.1s ease-in-out;
+                .icon {
+                    margin-bottom: 6px;
+                    transition: all 0.5s ;
+
+                }
+            }
+        }
+
+        .right-bar {
+            overflow: hidden;
+            img{
+                object-fit: cover;
+                height: 100%;
+                width: 100%;
+                transition: all 0.2s ease-in-out;
+            }
+            width: 80%;
+            height: 300px;
+            background-size: cover;
+            // background-image: url("https://images.unsplash.com/photo-1623874491779-b2918ae03b47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYyNTMyNjUyMw&ixlib=rb-1.2.1&q=80&w=600");
+        }
+    }
+    &:hover {
+        .right-bar {
+            background-size: cover;
+            img{
+                transform: scale(1.1)
+            }
+            // background: linear-gradient(0deg, rgba(204, 204, 204, 0.5), #4687974d), url("https://images.unsplash.com/photo-1623874491779-b2918ae03b47?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=600&ixid=MnwxfDB8MXxyYW5kb218MHx8fHx8fHx8MTYyNTMyNjUyMw&ixlib=rb-1.2.1&q=80&w=600");
+        }
+        .left-bar {
+            .icons {
+                bottom: 30px;
+            }
+        }
+    }
+}

@@ -1,5 +1,6 @@
 import React from 'react';
 import { useCollectionData } from 'react-firebase-hooks/firestore';
+import ModernPostCard from '../../../../components/Cards/ModernPostCard';
 import SectionSpinner from '../../../../components/shared/SectionSpinner';
 import SEOLayout from '../../../../components/shared/SEOLayout';
 import { insightsCollectionRef } from '../../../../shared/firebase/fire-app';
@@ -23,9 +24,10 @@ const InsightCategories = ({ categoryName }) => {
                 <section className="py-5">
                     {loading ? <SectionSpinner /> : ins && <div className="container">
                         <div className="row">
-                            {ins.map(item => <div className="col-md-6">
+                            {ins.map(item => <ModernPostCard type="insights" col={4} blog={item}  /> )}
+                            {/* {ins.map(item => <div className="col-md-6">
                                 <InsightCardLarge data={item} />
-                            </div>)}
+                            </div>)} */}
                         </div>
                     </div>}
                 </section>
