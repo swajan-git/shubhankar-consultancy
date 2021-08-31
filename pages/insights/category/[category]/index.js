@@ -21,7 +21,7 @@ const InsightCategories = ({ categoryName }) => {
                         Category : <span className="font-bold text-white"> {categoryName && categoryName}</span>
                     </h1>
                 </section>
-                <section className="py-5">
+                <section className="py-4">
                     {loading ? <SectionSpinner /> : ins && <div className="container">
                         <div className="row">
                             {ins.map(item => <ModernPostCard type="insights" col={4} blog={item}  /> )}
