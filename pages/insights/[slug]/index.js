@@ -15,6 +15,20 @@ const blog = ({ blog }) => {
     // https://swajan.io/swajan-software-engineer.png
     const router = useRouter();
     const { slug } = router.query;
+    // const [relatedPosts, setRelatedPosts] = useState([]);
+    // const [relatedLoading, setRelatedLoading] = useState(true);
+    const [relatedPosts, relatedLoading, err] = useCollectionData(insightsCollectionRef.where("subCategory", "==", blog.subCategory).limit(5), { idField: "id"})
+    // useEffect(() => {
+    //     insightsCollectionRef.where("subCategory", "==", blog.subCategory).limit(5).get().then((docs)=>{
+    //         console.log("total doc length: ", docs.length);
+    //         docs.forEach(doc => {
+    //             const bl = JSON.parse(JSON.stringify({ id: doc.id, ...doc.data() }))
+    //             setRelatedPosts([...relatedPosts, bl])
+    //             console.log(bl)
+    //             setRelatedLoading(false)
+    //         });
+    //     })
+    // },[blog])
 
     useEffect(() => {
         if (blogs) {
@@ -52,12 +66,9 @@ const blog = ({ blog }) => {
 
             <body>
                 <SiteNavbar />
-                {/* <div className="py-text-center">
-                    <button onClick={getD} className="btn-primary btn">log</button>
-                    <button onClick={() => console.log(blog)} className="btn-primary btn">log</button>
-                </div> */}
+            
                 <main>
-                    {blog && categories && <TemplateSingle type="blog" categories={categories.blogCategories} blog={blog} />}
+                    {blog && !relatedLoading && <TemplateSingle type="blog" relatedPosts={relatedPosts} blog={blog} />}
                 </main>
             </body>
         </>
@@ -73,17 +84,13 @@ export const getServerSideProps = async (context) => {
         id: context.params.id,
         title: "hello"
     }
-    // const snapshot = await blogsCollectionRef.where("slug", '==', slug).get();
-    // if (snapshot.empty) {
-    //     console.log('No matching documents.');
-    // }
+
     blogRow.forEach(doc => {
         const bl = JSON.parse(JSON.stringify({ id: doc.id, ...doc.data() }))
         if (bl.slug === context.params.slug) {
             blog = bl
         }
     });
-    // const blog = JSON.parse(JSON.stringify({ id: blogRow.id, ...blogRow.data() }))
     return {
         props: {
             blog

@@ -3,6 +3,7 @@ import HorizontalLine from "../components/shared/HorizontalLine";
 import SEOLayout from "../components/shared/SEOLayout";
 import { messagesCollectionRef } from "../shared/firebase/fire-app";
 import { FaFacebookF, FaLinkedinIn, FaTwitter, FaEnvelope } from "react-icons/fa";
+import {FcGoogle} from "react-icons/fc"
 
 
 import { send } from "emailjs-com"
@@ -41,17 +42,17 @@ const PageContact = () => {
                                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor, unde error, obcaecati eius ad minima eveniet consequatur harum dolorum necessitatibus suscipit explicabo.
                                 </p>
                                 <div className="social-icons py-5">
-                                    <div className="tutor-contact-icon-container" >
+                                    <div className="tutor-contact-icon-container linkedIn" >
                                         <div className="tutor-contact-icons"><FaLinkedinIn /></div>
                                     </div>
-                                    <div className="tutor-contact-icon-container" >
+                                    {/* <div className="tutor-contact-icon-container twitter" >
                                         <div className="tutor-contact-icons"><FaTwitter /></div>
-                                    </div>
-                                    <div className="tutor-contact-icon-container" >
+                                    </div> */}
+                                    <div className="tutor-contact-icon-container facebook" >
                                         <div className="tutor-contact-icons"><FaFacebookF /></div>
                                     </div>
-                                    <div className="tutor-contact-icon-container" >
-                                        <div className="tutor-contact-icons"><FaEnvelope /></div>
+                                    <div className="tutor-contact-icon-container google" >
+                                        <div className="tutor-contact-icons"><FcGoogle /></div>
                                     </div>
                                 </div>
                             </div>

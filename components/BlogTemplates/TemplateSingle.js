@@ -3,9 +3,10 @@ import ContentAuthors from "./ContentAuthors"
 import RelatedTopics from "./RelatedTopics"
 import PostSocialShare from "./SocialShare";
 import moment from 'moment';
+import { useCollectionData } from "react-firebase-hooks/firestore";
 
 
-const TemplateSingle = ({ blog, type, categories }) => {
+const TemplateSingle = ({ blog, type, relatedPosts }) => {
     const startTime = new Date(blog.createdAt.seconds * 1000);
     var check = moment(startTime);
     var month = check.format('MMMM');
@@ -43,7 +44,7 @@ const TemplateSingle = ({ blog, type, categories }) => {
                                     </div>}
                                     <div className="w-100 mt-5 pt-5">
                                         <h4 className="font-weight- mb-4">MORE ON THIS TOPIC</h4>
-                                        <RelatedTopics blogs={[blog, blog, blog]} />
+                                        <RelatedTopics blogs={relatedPosts} />
                                     </div>
                                 </div>
                             </div>
