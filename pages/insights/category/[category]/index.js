@@ -39,7 +39,7 @@ export default InsightCategories;
 
 export const getServerSideProps = async (context) => {
     const categoryUrl = context.params.category;
-    const categoryName = categoryUrl.replace("-", " ");
+    const categoryName = categoryUrl.replaceAll("-", " ");
     const snapshot = await insightsCollectionRef.where("subCategory", "==", "Business Strategy").get();
     // let allInsights = [];
     // snapshot.forEach(doc => {
