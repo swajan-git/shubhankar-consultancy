@@ -23,10 +23,7 @@ const InsightCategories = ({ categoryName }) => {
                 <section className="py-4">
                     {loading ? <SectionSpinner /> : ins && <div className="container">
                         <div className="row">
-                            {ins.map(item => <ModernPostCard type="insights" col={4} blog={item}  /> )}
-                            {/* {ins.map(item => <div className="col-md-6">
-                                <InsightCardLarge data={item} />
-                            </div>)} */}
+                            {ins.map(item => <ModernPostCard type="insights" col={4} blog={item} />)}
                         </div>
                     </div>}
                 </section>
@@ -42,12 +39,6 @@ export const getServerSideProps = async (context) => {
     const categoryUrl = context.params.category;
     const categoryName = categoryUrl.replaceAll("-", " ");
     const snapshot = await insightsCollectionRef.where("subCategory", "==", "Business Strategy").get();
-    // let allInsights = [];
-    // snapshot.forEach(doc => {
-    //     const insight = JSON.parse(JSON.stringify({ id: doc.id, ...doc.data() }));
-    //     console.log("insight: ", insight);
-    //     allInsights = [...allInsights, insight];
-    // })
 
     return {
         props: {
