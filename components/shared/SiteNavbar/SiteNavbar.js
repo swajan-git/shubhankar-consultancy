@@ -30,7 +30,7 @@ const SiteNavbar = ({active}) => {
                         </Nav.Item> */}
                         <InsightMegaMenu active={active == "insights" ? true : false} />
                         <Nav.Item>
-                            <Nav.Link eventKey="122" className={`single-item ${active == "about" && "active"}`}><Link href="/about-us"><span className="nav-link">About US</span></Link></Nav.Link>
+                            <Nav.Link eventKey="122" className={`single-item ${active == "about" && "active"}`}><Link href="/about-us"><span className="nav-link">About us</span></Link></Nav.Link>
                         </Nav.Item>
                         {/* <NavDropdown title="About Us" className="mr-0">
                             <NavDropdown.Item eventKey="3">
