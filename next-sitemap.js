@@ -1,5 +1,5 @@
 
 module.exports = {
-    siteUrl: 'https://shubhankarconsulting.com',
+    siteUrl: 'http://swajan.io',
     generateRobotsTxt: true,
 }
