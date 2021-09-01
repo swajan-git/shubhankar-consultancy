@@ -33,7 +33,7 @@ const ServicePage = () => {
     ]
     return (
         <>
-            <SEOLayout title="Change Management | Services" />
+            <SEOLayout title="Change Management | Services" activeNav="services"  />
             <main>
 
                 <section className="service-hero py-5">

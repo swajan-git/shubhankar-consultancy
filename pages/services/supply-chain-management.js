@@ -6,7 +6,7 @@ import { supplyChainData, supplyHowWeWork } from '../../shared/data/service-data
 const SupplyChainManagement = () => {
     return (
         <>
-            <SEOLayout title="Supply Chain Management | Shubhankar Consulting" />
+            <SEOLayout title="Supply Chain Management | Shubhankar Consulting"  activeNav="services" />
             <main className="supply-chain-management">
                 <div className="total-hero">
                     <section className="py-5 hero">

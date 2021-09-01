@@ -16,7 +16,7 @@ const ServicePage = () => {
     const heroImg = `https://source.unsplash.com/random/800x550`;
     return (
         <>
-        <SEOLayout title="Finance Consulting | Services" />
+        <SEOLayout title="Finance Consulting | Services" activeNav="services"  />
             <main className="finance-consulting">
                 <section className="pt-5 bg-fin">
                     <div className="container">

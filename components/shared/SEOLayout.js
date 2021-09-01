@@ -1,7 +1,7 @@
 import Head from "next/head"
 import SiteNavbar from "./SiteNavbar/SiteNavbar";
 
-const SEOLayout = ({ title, description, img, url }) => {
+const SEOLayout = ({ title, description, img, url, activeNav }) => {
     const siteTitle = "Shubhankar Consulting"
     const siteImg = "/shubhankar-consulting.jpeg"
     const siteDescription = `Business Consulting Firm`
@@ -27,7 +27,7 @@ const SEOLayout = ({ title, description, img, url }) => {
                 {/* <link rel="manifest" href="%PUBLIC_URL%/manifest.json" /> */}
                 <title>{title? title: siteTitle}</title>
             </Head>
-            <SiteNavbar/>
+            <SiteNavbar active={activeNav}/>
         </>
     );
 };

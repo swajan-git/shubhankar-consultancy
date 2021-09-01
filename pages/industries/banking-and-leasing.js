@@ -4,7 +4,7 @@ import SEOLayout from "../../components/shared/SEOLayout";
 const IndustriesPage = () => {
     return (
         <>
-            <SEOLayout title="Banking and Leasing | Shubhankar Consulting" />
+            <SEOLayout title="Banking and Leasing | Shubhankar Consulting" activeNav="industries"  />
             <main className="banking">
                 <section className="bg-section">
                     <div className="bg-blue">

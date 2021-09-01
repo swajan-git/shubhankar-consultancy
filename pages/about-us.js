@@ -9,7 +9,7 @@ import SEOLayout from '../components/shared/SEOLayout';
 const AboutUsPage = () => {
     return (
         <>
-            <SEOLayout title="About Us | Shubhankar Consulting" />
+            <SEOLayout title="About Us | Shubhankar Consulting" activeNav="about" />
             <TheCoreTeam/>
             <OurPurpose/>
             <CoreValues/>

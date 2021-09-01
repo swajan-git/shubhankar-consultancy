@@ -6,7 +6,7 @@ const ServicePage = () => {
 
     return (
         <>
-         <SEOLayout title="Customer Experience | Services" />
+         <SEOLayout title="Customer Experience | Services"  activeNav="services" />
             <main className="customer-experience">
                 <section className="exp-hero py-5">
 

@@ -6,7 +6,7 @@ import { mergersCapabilities, mergersHow } from "../../shared/data/service-data/
 const ServicePage = () => {
     return (
         <>
-            <SEOLayout title="Mergers & Acquisitions | Shubhankar Consulting" />
+            <SEOLayout title="Mergers & Acquisitions | Shubhankar Consulting" activeNav="services"  />
             <main className="mergers">
                 <section className="section-one pt-5">
                     <div className="container-fluid mt-5 pb-4 white-bottom">

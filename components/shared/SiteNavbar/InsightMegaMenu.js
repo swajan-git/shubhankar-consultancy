@@ -2,12 +2,12 @@ import Link from "next/link"
 import { updatedInsightCategories } from "../../../shared/data/navbar-data/insight-megamenu";
 import { useBlogs } from "../../../shared/Hooks/useBlogs";
 
-const InsightMegaMenu = () => {
+const InsightMegaMenu = ({active}) => {
     const { categories } = useBlogs()
     return (
         <>
                 <div className="nav-item insight-drop dropdown has-megamenu mr-0">
-                    <Link href="/insights"><a className="nav-link dropdown-toggle" ><Link href="/insights">Insights</Link></a></Link>
+                    <Link href="/insights"><a className={`nav-link dropdown-toggle ${active && "active"}`} >Insights</a></Link>
                     <div className="dropdown-menu megamenu insight-mega" role="menu">
                         <div className="container-fluid">
                             <div className="w-100 py-0 py-5 ">

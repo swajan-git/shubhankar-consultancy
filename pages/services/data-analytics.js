@@ -6,7 +6,7 @@ import { dataAnalyticsCapabilities } from "../../shared/data/service-data/data-a
 const ServicePage = () => {
     return (
         <>
-            <SEOLayout title="Data Analytics | Shubhankar Consulting" />
+            <SEOLayout title="Data Analytics | Shubhankar Consulting" activeNav="services"  />
             <main className="data-analytics">
                 <section className="hero">
                     <div className="container-fluid">

@@ -6,7 +6,7 @@ import { consumerGoodsCapabilities } from "../../shared/data/industry-data/consu
 const IndustriesPage = () => {
     return (
         <>
-            <SEOLayout title="Consumer Goods & Services | Industries" />
+            <SEOLayout title="Consumer Goods & Services | Industries"  activeNav="industries" />
             <main className="consumer-goods">
                 <section className="bg-section">
                     <div className="container-fluid">

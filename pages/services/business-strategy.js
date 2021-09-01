@@ -28,7 +28,7 @@ const ServicePage = () => {
 
     return (
         <>
-        <SEOLayout title="Business Strategy | Services" />
+        <SEOLayout title="Business Strategy | Services" activeNav="services"  />
             {/* <ServicePageHero title={heroTitle} text={heroText} img={heroImg} /> */}
             <main className="business-strategy">
                 <section className="hero py-5">

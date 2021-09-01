@@ -4,7 +4,7 @@ import SEOLayout from "../../components/shared/SEOLayout";
 const IndustriesPage = () => {
     return (
         <>
-            <SEOLayout title="Retail | Industries" />
+            <SEOLayout title="Retail | Industries" activeNav="industries"  />
             <main className="retail">
                 <section className="bg-section">
                     <div className="py-5"></div>

@@ -8,7 +8,7 @@ const PageInsights = () => {
 
     return (
         <>
-            <SEOLayout title="Insights | Shubhankar Consulting" />
+            <SEOLayout title="Insights | Shubhankar Consulting" activeNav="insights" />
             <main className="insights">
                 <section className="insight-hero pt-5">
                     <div className="container py-5 my-4">

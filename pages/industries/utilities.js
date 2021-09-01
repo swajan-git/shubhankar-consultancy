@@ -6,7 +6,7 @@ import { SupplyCard } from "../services/supply-chain-management";
 const IndustriesPage = () => {
     return (
         <>
-            <SEOLayout title="Utilities | Industries" />
+            <SEOLayout title="Utilities | Industries" activeNav="industries"  />
             <main className="utilities">
                 <section className="bg-section ">
                     <div className="container-fluid">

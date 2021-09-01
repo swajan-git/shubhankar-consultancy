@@ -39,6 +39,10 @@ a.nav-link {
         padding: 8px 16px !important;
     }
 }
+.nav-link.active{
+    color: #000;
+    font-weight: 600;
+}
 .nav-item {
     padding-top: 6px;
     padding-bottom: 6px;

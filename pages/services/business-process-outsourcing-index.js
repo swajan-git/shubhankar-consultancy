@@ -32,7 +32,7 @@ const BusinessProcessOutsourcing = () => {
     ]
     return (
         <>
-            <SEOLayout title="Business Process Outsourcing | Services" />
+            <SEOLayout title="Business Process Outsourcing | Services" activeNav="services" />
 
             <main className="bpo">
 

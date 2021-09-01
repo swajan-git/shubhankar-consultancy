@@ -12,7 +12,7 @@ import SEOLayout from '../components/shared/SEOLayout'
 export default function Home() {
     return (
         < >
-            <SEOLayout title="Shubhankar Consulting" />
+            <SEOLayout title="Shubhankar Consulting" activeNav="home" />
 
 
             <main className="home-page">

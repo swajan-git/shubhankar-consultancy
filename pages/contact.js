@@ -23,7 +23,7 @@ const PageContact = () => {
     }
     return (
         <>
-            <SEOLayout title="Contact | Shubhankar Consulting" />
+            <SEOLayout title="Contact | Shubhankar Consulting" activeNav="contact" />
             <main>
                 <section className="py-5 contact-hero">
                     <div className="py-5 text-center">

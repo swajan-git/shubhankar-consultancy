@@ -4,7 +4,7 @@ import SEOLayout from "../../components/shared/SEOLayout";
 const IndustriesPage = () => {
     return (
         <>
-            <SEOLayout title="Government & Non-Profit | Industries" />
+            <SEOLayout title="Government & Non-Profit | Industries"  activeNav="industries" />
             <main className="gov-ngo">
                 <section className="bg-section">
                     <div className="container-fluid">

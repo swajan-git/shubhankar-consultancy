@@ -4,7 +4,7 @@ import ServicesMegaMenu from "./ServicesMegaMenu";
 import IndustriesMegaMenu from "./IndustriesMegaMenu";
 import InsightMegaMenu from "./InsightMegaMenu";
 
-const SiteNavbar = () => {
+const SiteNavbar = ({active}) => {
     const shadow = true;
     return (
         <>
@@ -21,16 +21,16 @@ const SiteNavbar = () => {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav style={{ color: "#FFFFFF" }} className="ml-auto text-center mt-1">
                         <Nav.Item>
-                            <Nav.Link eventKey="129" className="active single-item"><Link href="/"><span className="nav-link">Home</span></Link></Nav.Link>
+                            <Nav.Link eventKey="129" className={`single-item ${active == "home" && "active"}`}><Link href="/"><span className="nav-link">Home</span></Link></Nav.Link>
                         </Nav.Item>
-                        <ServicesMegaMenu />
-                        <IndustriesMegaMenu />
+                        <ServicesMegaMenu active={active=="services" ? true: false} />
+                        <IndustriesMegaMenu active={active=="industries" ? true: false} />
                         {/* <Nav.Item>
                             <Nav.Link eventKey="128" className=" single-item"><Link href="/insights"><span className="nav-link">Insights</span></Link></Nav.Link>
                         </Nav.Item> */}
-                        <InsightMegaMenu />
+                        <InsightMegaMenu active={active == "insights" ? true : false} />
                         <Nav.Item>
-                            <Nav.Link eventKey="122" className=" single-item"><Link href="/about-us"><span className="nav-link">About US</span></Link></Nav.Link>
+                            <Nav.Link eventKey="122" className={`single-item ${active == "about" && "active"}`}><Link href="/about-us"><span className="nav-link">About US</span></Link></Nav.Link>
                         </Nav.Item>
                         {/* <NavDropdown title="About Us" className="mr-0">
                             <NavDropdown.Item eventKey="3">
@@ -52,7 +52,7 @@ const SiteNavbar = () => {
                             </NavDropdown.Item>
                         </NavDropdown> */}
                         <Nav.Item>
-                            <Nav.Link eventKey="126" className=" single-item"><Link href="/contact"><span className="nav-link">Contact</span></Link></Nav.Link>
+                            <Nav.Link eventKey="126" className={`single-item ${active == "contact" && "active"}`}><Link href="/contact"><span className="nav-link">Contact</span></Link></Nav.Link>
                         </Nav.Item>
                     </Nav>
                 </Navbar.Collapse>

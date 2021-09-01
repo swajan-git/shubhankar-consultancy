@@ -7,7 +7,7 @@ import { mergersCapabilities, mergersHow } from "../../shared/data/service-data/
 const IndustriesPage = () => {
     return (
         <>
-            <SEOLayout title="Travel | Industries" />
+            <SEOLayout title="Travel | Industries" activeNav="industries"  />
             <main className="travel">
                 <section className="bg-white">
                     <div className="container-fluid mt-5 pb-4 ">
