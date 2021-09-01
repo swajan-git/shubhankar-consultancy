@@ -43,7 +43,7 @@ const SingleMenu = ({ item }) => {
     return (
         <>
             <div className={"col-md-3 py-0 py-md-3 col-6 text-left text-blue mega-item "}>
-                <Link href={"/category/" + linkText}>{item}</Link>
+                <Link href={"/insights/category/" + linkText}>{item}</Link>
             </div>
         </>
     )
@@ -54,7 +54,7 @@ const SingleMenuItem = ({ item }) => {
     return (
         <>
             <div className={"w-100 pl-3 py-0 py-md-3 text-left text-blue mega-item "}>
-                <Link href={"/category/" + linkText}>{item}</Link>
+                <Link href={"/insights/category/" + linkText}>{item}</Link>
             </div>
         </>
     )
