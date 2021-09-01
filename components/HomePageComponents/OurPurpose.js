@@ -1,3 +1,4 @@
+import {  videoFour } from "../../shared/data/videos";
 
 const OurPurpose = () => {
     return (
@@ -19,7 +20,7 @@ const OurPurpose = () => {
             {/* video section */}
             <section className="logo-video-bg py-5 bg-secondary d-flex align-items-center text-white">
                 <video loop muted autoPlay="autoplay" >
-                    <source src="https://firebasestorage.googleapis.com/v0/b/copy-now.appspot.com/o/videos%2F4)%20Behind%20Shubhankar%20Logo.mp4?alt=media&token=32d543b5-cad2-4c74-afc6-92acad0b2812" type="video/mp4" ></source>
+                    <source src={videoFour} type="video/mp4" ></source>
                 </video>
                 <div className="overlay"></div>
                 <div className="container content">

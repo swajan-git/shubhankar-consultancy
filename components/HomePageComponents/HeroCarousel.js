@@ -1,19 +1,20 @@
 import { Carousel } from "react-bootstrap";
+import { videoFive, videoOne, videoThree, videoTwo } from "../../shared/data/videos";
 
 
 const HeroCarousel = () => {
     const data = [
         {
-            video: `https://firebasestorage.googleapis.com/v0/b/hola-sjn.appspot.com/o/videos%2F1)%20Holistic%20Value.mp4?alt=media&token=8dfd427b-0bfb-4e94-9ce0-73d37e2f80d1`,
+            video: videoOne
         },
         {
-            video: `https://firebasestorage.googleapis.com/v0/b/hola-sjn.appspot.com/o/videos%2F2)%20AI%20and%20the%20cloud.mp4?alt=media&token=324a3df6-5c34-4d1c-ab70-edb6c576b22d`
+            video: videoTwo
         },
         {
-            video: `https://firebasestorage.googleapis.com/v0/b/copy-now.appspot.com/o/videos%2F3)%20Business%20Tomorrow%20.mp4?alt=media&token=ec9755d3-e0ff-490c-9f26-4c23d7ac28b6`
+            video: videoThree
         },
         {
-            video: `https://firebasestorage.googleapis.com/v0/b/creative-agency-live.appspot.com/o/videos%2F4)%20Life%20Redesigned.mp4?alt=media&token=233e576b-4ac2-426d-8022-8cb3d2ee4930`
+            video: videoFive
         }
     ]
     return (
